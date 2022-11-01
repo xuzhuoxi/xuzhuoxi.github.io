@@ -11,7 +11,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: jekyll-agency
+# 原来的
+# theme: jekyll-agency
+
+# 修改为Github Pages支持
+theme: minima
+# 修改为自定义主题
+# remote_theme: raviriley/agency-jekyll-theme
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
