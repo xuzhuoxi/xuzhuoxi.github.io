@@ -21,7 +21,7 @@
 		
 		{% for board in site.data.home.boards %}
 		  {% unless board.nav_on %}{% continue %}{% endunless %}
-		  {% key = board.title_i18n %}
+		  {% assign key = board.title_i18n %}
 		  {% assign title = words[key]%}
 		  <li class="nav-item">
             {%- if board.url -%}
