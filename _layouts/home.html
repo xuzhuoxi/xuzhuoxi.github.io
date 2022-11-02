@@ -3,10 +3,11 @@ layout: default
 ---
 {% include navheader.html %}
 
+{% assign i18n_locate%}
 111
-{{ site.data.i18n[en-US][about.body] }}<br/>
+{{ site.data.i18n_en-US[about.body] }}<br/>
 222
-{{ site.data.i18n[en-US].about.body }} <br/>
+{{ site.data.i18n_en-US.about.body }} <br/>
 333
 
 {% for board in site.data.home.boards%}
