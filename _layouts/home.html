@@ -9,6 +9,8 @@ layout: default
 3. {{site.data[{{link}}].about.title}}<br/>
 4. {{site.data.{{link}}.about.title}}<br/>
 5. {{site.data[link].about.title}}<br/>
+{% assign i18ntext = site.data[link] %}
+6. {{i18ntext.about.title}}<br/>
 
 {% for board in site.data.home.boards%}
   {% if board.page %}
