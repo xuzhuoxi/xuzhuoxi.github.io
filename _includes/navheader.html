@@ -16,17 +16,18 @@
         <ul class="navbar-nav text-uppercase ml-auto">
 		{% assign i18n_link = site.data.i18n[site.locale].link %}
         {% assign words = site.data[i18n_link] %}
+		
+		{{i18n_link}}<br/>
+		
 		{% for board in site.data.home.boards %}
-		  
 		  {% assign title = words[board.title_i18n]%}
-		  {{title}}<br/>
 		  <li class="nav-item">
             {%- if board.url -%}
-              <a class="nav-link js-scroll-trigger" href="{{ board.url }}">{{ title }}</a>
+              <a class="nav-link js-scroll-trigger" href="{{ board.url }}">{{ title }} {{board.title_i18n}}</a>
             {%- else if board.section -%}
-              <a class="nav-link js-scroll-trigger" href="#{{ board.section }}">{{ title }}</a>
+              <a class="nav-link js-scroll-trigger" href="#{{ board.section }}">{{ title }} {{board.title_i18n}}</a>
             {%- else -%}
-              <a class="nav-link js-scroll-trigger" href="#">{{ title }}</a>
+              <a class="nav-link js-scroll-trigger" href="#">{{ title }} {{board.title_i18n}}</a>
             {%- endif -%}
           </li>
 		{% endfor %}
