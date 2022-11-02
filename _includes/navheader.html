@@ -15,9 +15,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
 		{% assign i18n_link = site.data.i18n[site.locale].link %}
-		{{i18n_link}}<br/>
-		{{site.data[i18n_link].about.title}}<br/>
         {% assign words = site.data[i18n_link] %}
+		
+		{{words.about.title}}<br/>
+		
 		{% for board in site.data.home.boards %}
 		  {% unless board.nav_on %}{% continue %}{% endunless %}
 		  {% assign title = words[board.title_i18n]%}
