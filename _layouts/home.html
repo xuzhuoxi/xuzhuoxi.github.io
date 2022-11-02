@@ -5,6 +5,6 @@ layout: default
 
 {% for board in site.data.home.boards%}
   {% if board.on %}
-    {% include board.page %}
+    {% include {{board.page}} %}
   {% endif%}
 {% endfor%}
