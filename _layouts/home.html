@@ -4,7 +4,9 @@ layout: default
 {% include navheader.html %}
 
 {% for board in site.data.home.boards%}
+  000<br/>
   {% if board.on %}
+    111<br/>
     {% include {{board.page}} %}
   {% endif%}
 {% endfor%}
