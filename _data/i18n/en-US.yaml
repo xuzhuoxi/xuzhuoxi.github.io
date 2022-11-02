@@ -1,0 +1,154 @@
+about:
+  body: >-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
+    laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea,
+    alias ut unde. **Markdown** supported.
+  section: about
+  text: our story
+  title: About Us
+clients:
+  horizontal-scrolling: ''
+  list:
+    - logo: assets/img/clients/envato.jpg
+      title: envato
+      url: 'https://github.com/raviriley/agency-jekyll-theme'
+    - logo: assets/img/clients/designmodo.jpg
+      title: designmodo
+      url: 'https://github.com/raviriley/agency-jekyll-theme'
+    - logo: assets/img/clients/themeforest.jpg
+      title: themeforest
+      url: 'https://github.com/raviriley/agency-jekyll-theme'
+    - logo: assets/img/clients/creative-market.jpg
+      title: Creative Market
+      url: 'https://github.com/raviriley/agency-jekyll-theme'
+  max-height: 100px
+  section: clients
+contact:
+  email: Email*
+  email-validation: Please enter your email address.
+  message: Message*
+  message-validation: Please enter a message.
+  name: Name*
+  name-validation: Please enter your name.
+  phone: Phone Number
+  phone-validation: Please enter your phone number.
+  section: contact
+  subject: Contact Form Submission
+  submit: Send Message
+  text: Lorem ipsum or call 123456789
+  title: Contact Us
+footer:
+  legal: Privacy Policy
+  social:
+    - icon: fab fa-twitter
+      url: 'https://twitter.com'
+    - icon: fab fa-facebook-f
+      url: 'https://facebook.com'
+    - icon: fab fa-linkedin-in
+      url: 'https://linkedin.com'
+    - icon: fab fa-github
+      url: 'https://github.com/raviriley/agency-jekyll-theme'
+    - icon: fab fa-instagram
+      url: 'https://instagram.com'
+header:
+  button: Tell Me More
+  buttonlink: '#services'
+  text: It's Nice To Meet You
+  title: Welcome to our Studio!
+portfolio:
+  closebutton: Close Project
+  section: portfolio
+  text: Lorem ipsum dolor sit amet consectetur.
+  title: Portfolio
+services:
+  list:
+    - desc: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime
+        quam architecto quo inventore harum ex magni, dicta impedit.
+      icon: fas fa-shopping-cart
+      title: E-Commerce
+    - desc: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime
+        quam architecto quo inventore harum ex magni, dicta impedit.
+      icon: fas fa-laptop
+      title: Responsive Design
+    - desc: 'Your description here, full **Markdown** support'
+      icon: fab fa-markdown
+      title: '[Markdown](https://en.wikipedia.org/wiki/Markdown)'
+  section: services
+  text: Lorem ipsum
+  title: Services
+team:
+  people:
+    - image: assets/img/team/500x500.jpg
+      name: Kay Garland
+      role: Lead Designer
+      social:
+        - icon: fab fa-twitter
+          url: 'https://twitter.com'
+        - icon: fab fa-facebook-f
+          url: 'https://facebook.com'
+        - icon: fab fa-linkedin-in
+          url: 'https://linkedin.com'
+    - image: assets/img/team/2.jpg
+      name: Larry Parker
+      role: Lead Marketer
+      social:
+        - icon: fab fa-twitter
+          url: 'https://twitter.com'
+        - icon: fab fa-facebook-f
+          url: 'https://facebook.com'
+        - icon: fab fa-linkedin-in
+          url: 'https://linkedin.com'
+    - image: assets/img/team/500x500.jpg
+      name: Diana Perterson
+      role: Lead Developer
+      social:
+        - icon: fab fa-twitter
+          url: 'https://twitter.com'
+        - icon: fab fa-facebook-f
+          url: 'https://facebook.com'
+        - icon: fab fa-linkedin-in
+          url: 'https://linkedin.com'
+  section: team
+  subtext: >-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
+    laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea,
+    alias ut unde. **Markdown** supported.
+  text: Lorem ipsum dolor sit amet consectetur.
+  title: OUR AMAZING TEAM
+timeline:
+  end: Be Part <br> of Our <br> Story!
+  events:
+    - desc: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+        voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
+        recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium
+        consectetur!
+      image: assets/img/timeline/1.jpg
+      title: Our Humble Beginnings
+      year: 2009-2011
+    - desc: >-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+        voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
+        recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium
+        consectetur!
+      image: assets/img/timeline/2.jpg
+      title: An Agency is Born
+      year: March 2011
+    - alt: image alt text
+      desc: >-
+        Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll
+        theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For
+        more information, visit the documentation.
+      image: assets/img/timeline/3.jpg
+      title: Jekyll Theme is created
+      year: '2019'
+    - align: right
+      desc: 'Your description here, **Markdown** is fully supported.'
+      image: assets/img/timeline/4.jpg
+      title: Title
+      year: 2009-2011
+  section: timeline
+  text: Lorem ipsum timeline
+  title: Timeline
