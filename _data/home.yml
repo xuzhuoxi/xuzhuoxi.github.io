@@ -1,22 +1,22 @@
 boards: 
   - id: 'home.service'
-    on: 1
+    is_on: true
     page: 'services.html'
   - id: 'home.portfolio'
-    on: 1
+    is_on: true
     page: 'portfolio_grid.html'
   - id: 'home.about'
-    on: 1
+    is_on: true
     page: 'about.html'
   - id: 'home.timeline'
-    on: 1
+    is_on: true
     page: 'timeline.html'
   - id: 'home.team'
-    on: 1
+    is_on: true
     page: 'team.html'
   - id: 'home.clients'
-    on: 1
+    is_on: true
     page: 'clients.html'
   - id: 'home.contact'
-    on: 1
+    is_on: true
     page: 'contact.html'
