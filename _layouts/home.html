@@ -3,7 +3,7 @@ layout: default
 ---
 {% include navheader.html %}
 
-{% for board in site.data.home.boards | where: "is_on", true %}
+{% for board in site.data.home.boards | where: "is_on" %}
   board=[id={{board.id}}, on={{board.is_on}}, page={{board.page}}]<br/>
   {% if board.is_on %}
     111<br/>
