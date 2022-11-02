@@ -3,11 +3,14 @@ layout: default
 ---
 {% include navheader.html %}
 
+111
+{{ site.data.i18n[en-US][about.body] }}
+{{ site.data.i18n[en-US].about.body }}
+222
+
 {% for board in site.data.home.boards%}
   {% if board.is_on %}
     {% include {{board.page}} %}
   {% endif %}
 {% endfor %}
 
-{{ site.data.i18n[en-US][about.body] }}
-{{ site.data.i18n[en-US].about.body }}
