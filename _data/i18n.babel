@@ -11,7 +11,7 @@
     -->
 	<preset_collections/>
 	<framework>generic-yaml</framework>
-	<filename>main_i18n.babel</filename>
+	<filename>i18n.babel</filename>
 	<source_root_dir/>
 	<folder_node>
 		<name/>
@@ -2118,11 +2118,11 @@
 			<name>main</name>
 			<translation_urls>
 				<translation_url>
-					<path>en-US.yaml</path>
+					<path>i18n_en-US.yaml</path>
 					<language>en-US</language>
 				</translation_url>
 				<translation_url>
-					<path>zh-CN.yaml</path>
+					<path>i18n_zh-CN.yaml</path>
 					<language>zh-CN</language>
 				</translation_url>
 			</translation_urls>
