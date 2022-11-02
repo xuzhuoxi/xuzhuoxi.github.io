@@ -4,10 +4,10 @@ layout: default
 {% include navheader.html %}
 
 111
+{{ site.data.i18n.langs[0] }}<br/>
+{{ site.data.i18n.zh-CHS.title }}<br/>
 {{ site.data.i18n_en-US[about.body] }}<br/>
 222
-{{ site.data.i18n_en-US.about.body }} <br/>
-333
 
 {% for board in site.data.home.boards%}
   {% if board.is_on %}

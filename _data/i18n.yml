@@ -1,0 +1,33 @@
+langs:
+  - en
+  - cn
+
+en: &DEFAULT_EN
+  title: 'English'
+  link: i18n_en-US
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+cn: &DEFAULT_CN
+  title: '中文'
+  link: i18n_zh-CN
+zh-CHS:
+  <<: *DEFAULT_CN
+zh-CHT:
+  <<: *DEFAULT_CN
+zh-HK:
+  <<: *DEFAULT_CN
+zh-MO:
+  <<: *DEFAULT_CN
+zh-SG:
+  <<: *DEFAULT_CN
+zh-TW:
+  <<: *DEFAULT_CN
+zh-ZA:
+  <<: *DEFAULT_CN
