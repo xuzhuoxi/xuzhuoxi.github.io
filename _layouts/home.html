@@ -6,11 +6,9 @@ layout: default
 1. {{site.data.i18n_en-US.about.title}}<br/>
 2. {{site.data["i18n_en-US"].about.title}}<br/>
 {% assign link = "i18n_en-US" %}
-3. {{site.data[{{link}}].about.title}}<br/>
-4. {{site.data.{{link}}.about.title}}<br/>
-5. {{site.data[link].about.title}}<br/>
+3. {{site.data[link].about.title}}<br/>
 {% assign i18ntext = site.data[link] %}
-6. {{i18ntext.about.title}}<br/>
+4. {{i18ntext.about.title}}<br/>
 
 {% for board in site.data.home.boards%}
   {% if board.page %}
