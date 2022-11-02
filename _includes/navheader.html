@@ -14,31 +14,21 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
-        {% if site.locale and site.locale != "" and site.locale != nil %}
-        {% for link in site.data.navigation[site.locale].nav %}
-          <li class="nav-item">
-            {%- if link.url -%}
-              <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-            {%- else if link.section -%}
-              <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
+		{% assign i18n_link = site.data.i18n[site.locale].link %}
+        {% assign words = site.data[i18n_link] %}
+		{% for board in site.data.home.boards %}
+		  {% unless board.nav_on%}{% containue %}{% endif %}
+		  <li class="nav-item">
+		    {% assign title = words[board.title_i18n]%}
+            {%- if board.url -%}
+              <a class="nav-link js-scroll-trigger" href="{{ board.url }}">{{ title }}</a>
+            {%- else if board.section -%}
+              <a class="nav-link js-scroll-trigger" href="#{{ board.section }}">{{ title }}</a>
             {%- else -%}
-              <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+              <a class="nav-link js-scroll-trigger" href="#">{{ title }}</a>
             {%- endif -%}
           </li>
-        {% endfor %}
-        {% else %}
-        {% for link in site.data.navigation.nav %}
-        <li class="nav-item">
-          {%- if link.url -%}
-            <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-          {%- else if link.section -%}
-            <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
-          {%- else -%}
-            <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-          {%- endif -%}
-        </li>
-        {% endfor %}
-        {% endif %}
+		{% endfor %}
         </ul>
       </div>
     </div>
@@ -46,7 +36,6 @@
   <!-- End Navigation -->
   
   <!-- Header -->
-  {% if site.locale and site.locale != "" and site.locale != nil %}
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
@@ -62,21 +51,4 @@
       </div>
     </div>
   </header>
-  {% else %}
-  <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-	  {%- if site.data.sitetext.header.title -%}
-        <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if site.data.sitetext.header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if site.data.sitetext.header.button -%}
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
-	  {%- endif -%}
-      </div>
-    </div>
-  </header>
-  {% endif %}
   <!-- End Header -->

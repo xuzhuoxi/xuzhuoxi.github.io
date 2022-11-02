@@ -1,22 +1,36 @@
 boards: 
   - id: 'home.service'
-    is_on: true
+    nav_on: true
+    title_i18n: 'service.title'
+    section: service
     page: 'services.html'
   - id: 'home.portfolio'
-    is_on: true
+    nav_on: true
+    title_i18n: 'portfolio.title'
+    section: portfolio
     page: 'portfolio_grid.html'
   - id: 'home.about'
-    is_on: true
+    nav_on: true
+    title_i18n: 'about.title'
+    section: about
     page: 'about.html'
   - id: 'home.timeline'
-    is_on: true
+    nav_on: true
+    title_i18n: 'timeline.title'
+    section: timeline
     page: 'timeline.html'
   - id: 'home.team'
-    is_on: true
+    nav_on: true
+    title_i18n: 'team.title'
+    section: team
     page: 'team.html'
   - id: 'home.clients'
-    is_on: true
+    nav_on: false
+    title_i18n: 'clients.title'
+    section: clients
     page: 'clients.html'
   - id: 'home.contact'
-    is_on: true
+    nav_on: true
+    title_i18n: 'contact.title'
+    section: contact
     page: 'contact.html'

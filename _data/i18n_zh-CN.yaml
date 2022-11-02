@@ -2,7 +2,7 @@ about:
   body: ''
   section: ''
   text: ''
-  title: ''
+  title: 关于我们
 clients:
   horizontal-scrolling: ''
   list:
@@ -33,7 +33,7 @@ contact:
   subject: ''
   submit: ''
   text: ''
-  title: ''
+  title: 联系我们
 footer:
   legal: ''
   social:
@@ -56,7 +56,7 @@ portfolio:
   closebutton: ''
   section: ''
   text: ''
-  title: ''
+  title: 工具
 services:
   list:
     - desc: ''
@@ -70,7 +70,7 @@ services:
       title: ''
   section: ''
   text: ''
-  title: ''
+  title: 服务
 team:
   people:
     - image: ''
@@ -106,7 +106,7 @@ team:
   section: ''
   subtext: ''
   text: ''
-  title: ''
+  title: 我们的团队
 timeline:
   end: ''
   events:
@@ -130,4 +130,4 @@ timeline:
       year: ''
   section: ''
   text: ''
-  title: ''
+  title: 成长

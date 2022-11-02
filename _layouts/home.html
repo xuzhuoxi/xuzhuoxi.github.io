@@ -3,15 +3,8 @@ layout: default
 ---
 {% include navheader.html %}
 
-111
-{{ site.data.i18n.langs[0] }}<br/>
-{{ site.data.i18n.zh-CHS.title }}<br/>
-{{ site.data.i18n_en-US[about.body] }}<br/>
-222
-
 {% for board in site.data.home.boards%}
-  {% if board.is_on %}
+  {% if board.page %}
     {% include {{board.page}} %}
   {% endif %}
 {% endfor %}
-
