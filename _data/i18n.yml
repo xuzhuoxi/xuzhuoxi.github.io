@@ -4,7 +4,7 @@ langs:
 
 en: &DEFAULT_EN
   title: 'English'
-  link: i18n_en-US
+  link: 'i18n_en-US'
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -16,7 +16,7 @@ en-AU:
 
 cn: &DEFAULT_CN
   title: '中文'
-  link: i18n_zh-CN
+  link: 'i18n_zh-CN'
 zh-CHS:
   <<: *DEFAULT_CN
 zh-CHT:
