@@ -1,0 +1,22 @@
+boards: 
+  - id: 'home.service'
+    on: true
+    page: 'services.html'
+  - id: 'home.portfolio'
+    on: true
+    page: 'portfolio_grid.html'
+  - id: 'home.about'
+    on: true
+    page: 'about.html'
+  - id: 'home.timeline'
+    on: true
+    page: 'timeline.html'
+  - id: 'home.team'
+    on: true
+    page: 'team.html'
+  - id: 'home.clients'
+    on: true
+    page: 'clients.html'
+  - id: 'home.contact'
+    on: true
+    page: 'contact.html'
