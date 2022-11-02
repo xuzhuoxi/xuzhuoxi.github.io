@@ -18,8 +18,9 @@
         {% assign words = site.data[i18n_link] %}
 		{% for board in site.data.home.boards %}
 		  
+		  {% assign title = words[board.title_i18n]%}
+		  {{title}}<br/>
 		  <li class="nav-item">
-		    {% assign title = words[board.title_i18n]%}
             {%- if board.url -%}
               <a class="nav-link js-scroll-trigger" href="{{ board.url }}">{{ title }}</a>
             {%- else if board.section -%}
