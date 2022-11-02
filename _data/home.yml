@@ -6,7 +6,7 @@ boards:
     is_on: true
     page: 'portfolio_grid.html'
   - id: 'home.about'
-    is_on: true
+    is_on: false
     page: 'about.html'
   - id: 'home.timeline'
     is_on: true
