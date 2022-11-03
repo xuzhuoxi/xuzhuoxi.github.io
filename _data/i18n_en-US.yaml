@@ -3,7 +3,6 @@ about:
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
     laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea,
     alias ut unde. **Markdown** supported.
-  section: about
   text: our story
   title: 'About Us '
 clients:
@@ -22,7 +21,6 @@ clients:
       title: Creative Market
       url: 'https://github.com/raviriley/agency-jekyll-theme'
   max-height: 100px
-  section: clients
 contact:
   email: Email*
   email-validation: Please enter your email address.
@@ -32,7 +30,6 @@ contact:
   name-validation: Please enter your name.
   phone: Phone Number
   phone-validation: Please enter your phone number.
-  section: contact
   subject: Contact Form Submission
   submit: Send Message
   text: Lorem ipsum or call 123456789
@@ -80,7 +77,6 @@ navigation:
     url: 'https://github.com/raviriley/agency-jekyll-theme/'
 portfolio:
   closebutton: Close Project
-  section: portfolio
   text: Lorem ipsum dolor sit amet consectetur.
   title: Portfolio
 services:
@@ -98,7 +94,6 @@ services:
     - desc: 'Your description here, full **Markdown** support'
       icon: fab fa-markdown
       title: '[Markdown](https://en.wikipedia.org/wiki/Markdown)'
-  section: services
   text: Lorem ipsum
   title: Services
 team:
@@ -133,7 +128,6 @@ team:
           url: 'https://facebook.com'
         - icon: fab fa-linkedin-in
           url: 'https://linkedin.com'
-  section: team
   subtext: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
     laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea,
@@ -172,6 +166,5 @@ timeline:
       image: assets/img/timeline/4.jpg
       title: Title
       year: 2009-2011
-  section: timeline
   text: Lorem ipsum timeline
   title: Timeline

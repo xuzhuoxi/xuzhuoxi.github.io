@@ -1,6 +1,5 @@
 about:
   body: 对客户来说，注意脂肪处理过程非常重要。 或者那些，辛苦的真相，没有人可以看到，整个身体，从哪里来的其他方式。 **降价**支持。
-  section: about
   text: 我们的故事
   title: 关于我们
 clients:
@@ -19,7 +18,6 @@ clients:
       title: ''
       url: ''
   max-height: ''
-  section: clients
 contact:
   email: 电子邮箱*
   email-validation: 请输入您的电子邮件地址。
@@ -29,7 +27,6 @@ contact:
   name-validation: 请输入你的名字。
   phone: 电话号码
   phone-validation: 请输入您的电话号码。
-  section: contact
   subject: 联系表格提交
   submit: ''
   text: ''
@@ -77,7 +74,6 @@ navigation:
     url: 'https://github.com/raviriley/agency-jekyll-theme/'
 portfolio:
   closebutton: 关闭项目
-  section: portfolio
   text: Lorem ipsum dolor sit amet consectetur.
   title: 项目
 services:
@@ -91,7 +87,6 @@ services:
     - desc: 您在此处的描述，完整的 **Markdown** 支持
       icon: fab fa-markdown
       title: '[Markdown](https://en.wikipedia.org/wiki/Markdown)'
-  section: services
   text: Lorem ipsum
   title: 服务
 team:
@@ -126,7 +121,6 @@ team:
           url: 'https://facebook.com'
         - icon: fab fa-linkedin-in
           url: 'https://linkedin.com'
-  section: team
   subtext: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
     laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea,
@@ -160,6 +154,5 @@ timeline:
       image: assets/img/timeline/4.jpg
       title: 标题
       year: 2009-2011
-  section: timeline
   text: Lorem ipsum 成长线
   title: 成长线

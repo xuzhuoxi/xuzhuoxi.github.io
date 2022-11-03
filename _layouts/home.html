@@ -6,8 +6,6 @@ layout: default
 {% include i18n.html %}
 {% for item in i18ntext.navigation %}
   {% if item.page %}
-    {% assign section_value = item.section | default: "666" %}
-	{{section_value}}<br/>
-    {% include {{item.page}} section = section_value %}
+    {% include {{item.page}} section = item.section %}
   {% endif %}
 {% endfor %}
