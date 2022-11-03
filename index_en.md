@@ -2,7 +2,7 @@
 layout: default
 lang: en-US
 ---
-
+{% include i18n.html %}
 {% include navheader.html %}
 
 {% include services.html %}
