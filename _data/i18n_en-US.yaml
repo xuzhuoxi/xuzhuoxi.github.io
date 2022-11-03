@@ -49,7 +49,7 @@ footer:
       url: 'https://instagram.com'
 header:
   button: Tell Me More
-  buttonlink: '#services'
+  buttonlink: '#service'
   text: It's Nice To Meet You
   title: Welcome!
 navigation:

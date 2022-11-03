@@ -46,7 +46,7 @@ footer:
       url: ''
 header:
   button: 告诉我更多
-  buttonlink: '#services'
+  buttonlink: '#service'
   text: 很高兴认识你
   title: 欢迎来到！
 navigation:
