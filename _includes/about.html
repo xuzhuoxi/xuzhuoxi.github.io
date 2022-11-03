@@ -1,6 +1,5 @@
 <!-- About -->
-{% assign link = "i18n_" | append: page.lang %}
-{% assign i18ntext = site.data[link]%}
+{% include i18n.html %}
 <section class="page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
   <div class="container">
     <div class="row">
