@@ -3,18 +3,9 @@ layout: default
 ---
 {% include navheader.html %}
 
-1. {{site.data.i18n_en-US.about.title}}<br/>
-2. {{site.data["i18n_en-US"].about.title}}<br/>
-{% assign link = "i18n_en-US" %}
-3. {{site.data[link].about.title}}<br/>
-{% assign i18ntext = site.data[link] %}
-4. {{i18ntext.about.title}}<br/>
-{% assign key = "about.title" %}
-5. {{i18ntext.key}} <br/>
-6. {{i18ntext.{{"about.title"}} <br/>
-
-{% for board in site.data.home.boards%}
-  {% if board.page %}
-    {% include {{board.page}} %}
+{% include i18n.html %}
+{% for item in i18ntext.navigation %}
+  {% if item.page %}
+    {% include {{item.page}} %}
   {% endif %}
 {% endfor %}

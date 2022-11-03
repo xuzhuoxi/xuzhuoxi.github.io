@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: home
 lang: en-US
 ---
+<!-- 
 {% include navheader.html %}
 
 {% include services.html %}
@@ -11,3 +12,4 @@ lang: en-US
 {% include team.html %}
 {% include clients.html %}
 {% include contact.html %}
+-->

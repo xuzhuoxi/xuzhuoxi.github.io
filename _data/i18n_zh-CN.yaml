@@ -3,27 +3,6 @@ about:
   section: about
   text: 我们的故事
   title: 关于我们
-boards:
-  - page: services.html
-    section: service
-    title: 服务
-  - page: portfolio_grid.html
-    section: portfolio
-    title: 工具
-  - page: about.html
-    section: about
-    title: 关于我们
-  - page: timeline.html
-    section: timeline
-    title: 成长
-  - page: team.html
-    section: team
-    title: 我们的团队
-  - page: ''
-    section: clients
-  - page: contact.html
-    section: contact
-    title: 联系我们
 clients:
   horizontal-scrolling: ''
   list:
@@ -73,6 +52,29 @@ header:
   buttonlink: '#services'
   text: 很高兴认识你
   title: 欢迎来到我们的工作室！
+navigation:
+  - page: services.html
+    section: service
+    title: 服务
+  - page: portfolio_grid.html
+    section: portfolio
+    title: 项目
+  - page: about.html
+    section: about
+    title: 关于我们
+  - page: timeline.html
+    section: timeline
+    title: 成长线
+  - page: team.html
+    section: team
+    title: 我们的团队
+  - page: clients.html
+    section: clients
+  - page: contact.html
+    section: contact
+    title: 联系我们
+  - title: 源代码
+    url: 'https://github.com/raviriley/agency-jekyll-theme/'
 portfolio:
   closebutton: 关闭项目
   section: portfolio

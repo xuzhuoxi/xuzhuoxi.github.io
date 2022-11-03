@@ -6,27 +6,6 @@ about:
   section: about
   text: our story
   title: 'About Us '
-boards:
-  - page: services.html
-    section: service
-    title: Services
-  - page: portfolio_grid.html
-    section: portfolio
-    title: Portfolio
-  - page: about.html
-    section: about
-    title: About Us
-  - page: timeline.html
-    section: timeline
-    title: Timeline
-  - page: team.html
-    section: team
-    title: OUR AMAZING TEAM
-  - page: ''
-    section: clients
-  - page: contact.html
-    section: contact
-    title: Contact Us
 clients:
   horizontal-scrolling: ''
   list:
@@ -76,6 +55,29 @@ header:
   buttonlink: '#services'
   text: It's Nice To Meet You
   title: Welcome to our Studio!
+navigation:
+  - page: services.html
+    section: service
+    title: Services
+  - page: portfolio_grid.html
+    section: portfolio
+    title: Portfolio
+  - page: about.html
+    section: about
+    title: About Us
+  - page: timeline.html
+    section: timeline
+    title: Timeline
+  - page: team.html
+    section: team
+    title: OUR AMAZING TEAM
+  - page: clients.html
+    section: clients
+  - page: contact.html
+    section: contact
+    title: Contact Us
+  - title: Theme Source
+    url: 'https://github.com/raviriley/agency-jekyll-theme/'
 portfolio:
   closebutton: Close Project
   section: portfolio
