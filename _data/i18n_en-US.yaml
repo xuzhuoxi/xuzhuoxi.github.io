@@ -69,7 +69,6 @@ navigation:
     section: team
     title: Team
   - page: clients.html
-    section: clients
   - page: contact.html
     section: contact
     title: Contact
