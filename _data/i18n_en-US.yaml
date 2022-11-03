@@ -67,12 +67,12 @@ navigation:
     title: Timeline
   - page: team.html
     section: team
-    title: our team
+    title: Team
   - page: clients.html
     section: clients
   - page: contact.html
     section: contact
-    title: contact
+    title: Contact
   - title: Theme Source
     url: 'https://github.com/raviriley/agency-jekyll-theme/'
 portfolio:
