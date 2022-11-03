@@ -27,8 +27,6 @@
                     <a classitemnav-link js-scroll-trigger" href="{{ link.url }}" >{{ item.title }}</a>
                     {%- else if item.section -%}
                     <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}">{{ item.title }}</a>
-                    {%- else -%}
-                    <a class="nav-link js-scroll-trigger" href="#">{{ item.title }}</a>
                     {%- endif -%}
                 </li>
                 {%- endfor -%}
