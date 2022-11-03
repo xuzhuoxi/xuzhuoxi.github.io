@@ -1,49 +1,55 @@
-  <!-- Navigation -->
-  {% include i18n.html %}
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+<!-- Navigation -->
+{%- include i18n.html -%}
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          {%- if site.logo -%}
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            {%- if site.logo -%}
             <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
-          {%- else -%}
+            {%- else -%}
             {{ i18ntext.title }}
-          {%- endif -%}
-      </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-		{% for item in i18ntext.navigation %}
-		  <li class="nav-item">
-            {%- if item.url -%}
-              <a class="nav-link js-scroll-trigger" href="{{ item.url }}">{{item.title}}</a>
-            {%- else if item.section -%}
-              <a class="nav-link js-scroll-trigger" href="#{{ item.section }}">{{item.title}}</a>
             {%- endif -%}
-          </li>
-		{% endfor %}
-        </ul>
-      </div>
+        </a>
+        <button class="navbar-toggler navbar-toggler-right"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            Menu<i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+                {%- for item in i18ntext.navigation -%}
+                <li class="nav-item">
+                    {%- if item.url -%}
+                    <a class="nav-link js-scroll-trigger" href="{{ item.url }}">{{item.title}}</a>
+                    {%- else if item.section -%}
+                    <a class="nav-link js-scroll-trigger" href="#{{ item.section }}">{{item.title}}</a>
+                    {%- endif -%}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
-  </nav>
-  <!-- End Navigation -->
-  
-  <!-- Header -->
-  <header class="masthead">
+</nav>
+<!-- End Navigation -->
+
+<!-- Header -->
+<header class="masthead">
     <div class="container">
-      <div class="intro-text">
-	  {%- if i18ntext.header.title -%}
-        <div class="intro-lead-in">{{ i18ntext.header.title | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if i18ntext.header.text -%}
-        <div class="intro-heading text-uppercase">{{ i18ntext.header.text | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if i18ntext.header.button -%}
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ i18ntext.header.buttonlink }}">{{ i18ntext.header.button }}</a>
-	  {%- endif -%}
-      </div>
+        <div class="intro-text">
+            {%- if i18ntext.header.title -%}
+            <div class="intro-lead-in">{{ i18ntext.header.title | markdownify }}</div>
+            {%- endif -%}
+            {%- if i18ntext.header.text -%}
+            <div class="intro-heading text-uppercase">{{ i18ntext.header.text | markdownify }}</div>
+            {%- endif -%}
+            {%- if i18ntext.header.button -%}
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+               href="{{ i18ntext.header.buttonlink }}">{{ i18ntext.header.button }}</a>
+            {%- endif -%}
+        </div>
     </div>
-  </header>
-  <!-- End Header -->
+</header>
+<!-- End Header -->
