@@ -22,13 +22,11 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
                 {%- for item in i18ntext.navigation -%}
-                <li class="nav-item">
                     {%- if link.url -%}
-                    <a classitemnav-link js-scroll-trigger" href="{{ link.url }}" >{{ item.title }}</a>
+                    <li class="nav-item"><a classitemnav-link js-scroll-trigger" href="{{ link.url }}" >{{ item.title }}</a> </li>
                     {%- else if item.section -%}
-                    <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}">{{ item.title }}</a>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}">{{ item.title }}</a></li>
                     {%- endif -%}
-                </li>
                 {%- endfor -%}
             </ul>
         </div>
