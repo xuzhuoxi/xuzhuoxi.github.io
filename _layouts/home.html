@@ -6,7 +6,7 @@ layout: default
 {% include i18n.html %}
 {% for item in i18ntext.navigation %}
   {% if item.page %}
-    {% assign section = item.secion | default: "" %}
-    {% include {{item.page}} section = "about666"  %}
+    {% assign section_value = item.secion | default: "" %}
+    {% include {{item.page}} section = section_value %}
   {% endif %}
 {% endfor %}
