@@ -1,8 +1,29 @@
 about:
   body: ''
-  section: ''
+  section: about
   text: ''
   title: 关于我们
+boards:
+  - page: services.html
+    section: service
+    title: 服务
+  - page: portfolio_grid.html
+    section: portfolio
+    title: 工具
+  - page: about.html
+    section: about
+    title: 关于我们
+  - page: timeline.html
+    section: timeline
+    title: 成长
+  - page: team.html
+    section: team
+    title: 我们的团队
+  - page: ''
+    section: clients
+  - page: contact.html
+    section: contact
+    title: 联系我们
 clients:
   horizontal-scrolling: ''
   list:

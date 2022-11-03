@@ -1,6 +1,6 @@
 ---
 layout: default
-lang: zh-CN
+lang: en-US
 ---
 
 {% include navheader.html %}
