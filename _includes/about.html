@@ -1,5 +1,5 @@
 <!-- About -->
-{% assign link = "i18n_" | concat: page.lang %}
+{% assign link = "i18n_" | append: page.lang %}
 {% assign i18ntext = site.data[link]%}
 <section class="page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
   <div class="container">
