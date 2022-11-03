@@ -61,18 +61,18 @@ navigation:
     title: Portfolio
   - page: about.html
     section: about
-    title: About Us
+    title: About
   - page: timeline.html
     section: timeline
     title: Timeline
   - page: team.html
     section: team
-    title: OUR AMAZING TEAM
+    title: our team
   - page: clients.html
     section: clients
   - page: contact.html
     section: contact
-    title: Contact Us
+    title: contact
   - title: Theme Source
     url: 'https://github.com/raviriley/agency-jekyll-theme/'
 portfolio:

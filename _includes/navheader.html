@@ -15,14 +15,14 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
-		{% for board in i18ntext.navigation %}
+		{% for item in i18ntext.navigation %}
 		  <li class="nav-item">
-            {%- if board.url -%}
-              <a class="nav-link js-scroll-trigger" href="{{ board.url }}">{{board.title}}</a>
-            {%- else if board.section -%}
-              <a class="nav-link js-scroll-trigger" href="#{{ board.section }}">{{board.title}}</a>
+            {%- if item.url -%}
+              <a class="nav-link js-scroll-trigger" href="{{ item.url }}">{{item.title}}</a>
+            {%- else if item.section -%}
+              <a class="nav-link js-scroll-trigger" href="#{{ item.section }}">{{item.title}}</a>
             {%- else -%}
-              <a class="nav-link js-scroll-trigger" href="#">{{board.title}}</a>
+              <a class="nav-link js-scroll-trigger" href="#">{{item.title}}</a>
             {%- endif -%}
           </li>
 		{% endfor %}

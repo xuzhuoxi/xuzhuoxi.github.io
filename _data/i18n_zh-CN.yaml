@@ -58,13 +58,13 @@ navigation:
     title: 项目
   - page: about.html
     section: about
-    title: 关于我们
+    title: 关于
   - page: timeline.html
     section: timeline
     title: 成长线
   - page: team.html
     section: team
-    title: 我们的团队
+    title: 团队
   - page: clients.html
     section: clients
   - page: contact.html
