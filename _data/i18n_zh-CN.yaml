@@ -48,7 +48,7 @@ header:
   button: 告诉我更多
   buttonlink: '#services'
   text: 很高兴认识你
-  title: 欢迎来到我们的工作室！
+  title: 欢迎来到！
 navigation:
   - page: services.html
     section: service
@@ -156,3 +156,4 @@ timeline:
       year: 2009-2011
   text: Lorem ipsum 成长线
   title: 成长线
+title: 我的工具仓库

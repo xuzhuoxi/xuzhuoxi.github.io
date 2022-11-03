@@ -1,11 +1,12 @@
   <!-- Navigation -->
+  {% include i18n.html %}
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
 	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
           {%- if site.logo -%}
             <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
           {%- else -%}
-            {{ site.title }}
+            {{ i18ntext.title }}
           {%- endif -%}
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,26 +15,14 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
-		{% assign i18n_link = site.data.i18n[site.locale].link %}
-        {% assign words = site.data[i18n_link] %}
-		
-		66.{{words[about.title]}}<br/>
-		77.{{words["about.title"]}}<br/>
-		88.{{words.about.title}}<br/>
-		99.{{words[about][title]}}<br/>
-		00.{{words.{{"about.title"}} }}<br/>
-		
-		{% for board in site.data.home.boards %}
-		  {% unless board.nav_on %}{% continue %}{% endunless %}
-		  {% assign key = board.title_i18n %}
-		  {% assign title = words[key]%}
+		{% for board in i18ntext.navigation %}
 		  <li class="nav-item">
             {%- if board.url -%}
-              <a class="nav-link js-scroll-trigger" href="{{ board.url }}">{{ title }} {{board.title_i18n}}</a>
+              <a class="nav-link js-scroll-trigger" href="{{ board.url }}">{{board.title}}</a>
             {%- else if board.section -%}
-              <a class="nav-link js-scroll-trigger" href="#{{ board.section }}">{{ title }} {{board.title_i18n}}</a>
+              <a class="nav-link js-scroll-trigger" href="#{{ board.section }}">{{board.title}}</a>
             {%- else -%}
-              <a class="nav-link js-scroll-trigger" href="#">{{ title }} {{board.title_i18n}}</a>
+              <a class="nav-link js-scroll-trigger" href="#">{{board.title}}</a>
             {%- endif -%}
           </li>
 		{% endfor %}
@@ -47,14 +36,14 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-	  {%- if site.data.sitetext[site.locale].header.title -%}
-        <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
+	  {%- if i18ntext.header.title -%}
+        <div class="intro-lead-in">{{ i18ntext.header.title | markdownify }}</div>
 	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
+	  {%- if i18ntext.header.text -%}
+        <div class="intro-heading text-uppercase">{{ i18ntext.header.text | markdownify }}</div>
 	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.button -%}
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
+	  {%- if i18ntext.header.button -%}
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ i18ntext.header.buttonlink }}">{{ i18ntext.header.button }}</a>
 	  {%- endif -%}
       </div>
     </div>

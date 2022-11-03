@@ -51,7 +51,7 @@ header:
   button: Tell Me More
   buttonlink: '#services'
   text: It's Nice To Meet You
-  title: Welcome to our Studio!
+  title: Welcome!
 navigation:
   - page: services.html
     section: service
@@ -168,3 +168,4 @@ timeline:
       year: 2009-2011
   text: Lorem ipsum timeline
   title: Timeline
+title: My Development Toolbox
