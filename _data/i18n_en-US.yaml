@@ -60,7 +60,7 @@ navigation:
     section: portfolio
     title: Portfolio
   - page: about.html
-    section: about666
+    section: about
     title: About Us
   - page: timeline.html
     section: timeline

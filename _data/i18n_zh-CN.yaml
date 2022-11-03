@@ -57,7 +57,7 @@ navigation:
     section: portfolio
     title: 项目
   - page: about.html
-    section: about666
+    section: about
     title: 关于我们
   - page: timeline.html
     section: timeline
