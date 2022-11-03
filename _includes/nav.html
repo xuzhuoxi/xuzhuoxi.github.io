@@ -24,7 +24,7 @@
                 {% for item in i18ntext.navigation %}
                     {% if item.url %}
                     <li class="nav-item"><a classitemnav-link js-scroll-trigger" href="{{ item.url }}" >{{ item.title }}</a> </li>
-                    {% else if item.section %}
+                    {% elsif item.section %}
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ item.section }}">{{ item.title }}</a></li>
                     {% endif %}
                 {% endfor %}
