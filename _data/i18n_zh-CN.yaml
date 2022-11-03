@@ -1,6 +1,6 @@
 about:
   body: 对客户来说，注意脂肪处理过程非常重要。 或者那些，辛苦的真相，没有人可以看到，整个身体，从哪里来的其他方式。 **降价**支持。
-  section: about
+  section: 关于
   text: 我们的故事
   title: 关于我们
 boards:
@@ -27,84 +27,84 @@ boards:
 clients:
   horizontal-scrolling: ''
   list:
-    - logo: ''
-      title: ''
-      url: ''
-    - logo: ''
-      title: ''
-      url: ''
-    - logo: ''
-      title: ''
-      url: ''
+    - logo: assets/img/clients/envato.jpg
+      title: 环境
+      url: 'https://github.com/raviriley/agency-jekyll-theme'
+    - logo: assets/img/clients/designmodo.jpg
+      title: 设计模式
+      url: 'https://github.com/raviriley/agency-jekyll-theme'
+    - logo: assets/img/clients/themeforest.jpg
+      title: 主题森林
+      url: 'https://github.com/raviriley/agency-jekyll-theme'
     - logo: ''
       title: ''
       url: ''
   max-height: ''
   section: ''
 contact:
-  email: ''
-  email-validation: ''
-  message: ''
-  message-validation: ''
-  name: ''
-  name-validation: ''
-  phone: ''
-  phone-validation: ''
-  section: ''
-  subject: ''
+  email: 电子邮箱*
+  email-validation: 请输入您的电子邮件地址。
+  message: 信息*
+  message-validation: 请输入消息。
+  name: 姓名*
+  name-validation: 请输入你的名字。
+  phone: 电话号码
+  phone-validation: 请输入您的电话号码。
+  section: 联系
+  subject: 联系表格提交
   submit: ''
   text: ''
   title: 联系我们
 footer:
-  legal: ''
+  legal: 隐私政策
   social:
-    - icon: ''
-      url: ''
-    - icon: ''
-      url: ''
-    - icon: ''
-      url: ''
-    - icon: ''
-      url: ''
-    - icon: ''
+    - icon: fab fa-twitter
+      url: 'https://twitter.com'
+    - icon: fab fa-facebook-f
+      url: 'https://facebook.com'
+    - icon: fab fa-linkedin-in
+      url: 'https://linkedin.com'
+    - icon: fab fa-github
+      url: 'https://github.com/raviriley/agency-jekyll-theme'
+    - icon: fab fa-instagram
       url: ''
 header:
-  button: Tell Me More
+  button: 告诉我更多
   buttonlink: '#services'
-  text: It's Nice To Meet You
-  title: Welcome to our Studio!
+  text: 很高兴认识你
+  title: 欢迎来到我们的工作室！
 portfolio:
-  closebutton: ''
-  section: ''
-  text: ''
-  title: 工具
+  closebutton: 关闭项目
+  section: 项目
+  text: Lorem ipsum dolor sit amet consectetur.
+  title: 项目
 services:
   list:
-    - desc: ''
-      icon: ''
-      title: ''
-    - desc: ''
-      icon: ''
-      title: ''
-    - desc: ''
-      icon: ''
-      title: ''
-  section: ''
+    - desc: 对客户来说，注意脂肪处理过程非常重要。 最小的，最重要的是，阻碍了从伟大的工程师那里发现这些东西的工程师。
+      icon: fas fa-shopping-cart
+      title: 电子商务
+    - desc: 对客户来说，注意脂肪处理过程非常重要。 最小的，最重要的是，阻碍了从伟大的工程师那里发现这些东西的工程师。
+      icon: fas fa-laptop
+      title: 响应式设计
+    - desc: 您在此处的描述，完整的 **Markdown** 支持
+      icon: fab fa-markdown
+      title: '[Markdown](https://en.wikipedia.org/wiki/Markdown)'
+  section: 服务
   text: ''
   title: 服务
 team:
   people:
-    - image: ''
-      name: ''
-      role: ''
+    - image: assets/img/team/500x500.jpg
+      name: 凯·加兰
+      role: 首席设计师
       social:
-        - icon: ''
-          url: ''
-        - icon: ''
-          url: ''
-        - icon: ''
-          url: ''
-    - image: ''
+        - icon: fab fa-twitter
+          url: 'https://twitter.com'
+        - icon: fab fa-facebook-f
+          url: 'https://facebook.com'
+        - icon: fab fa-linkedin-in
+          url: 'https://linkedin.com'
+    - image: assets/img/team/2.jpg
       name: ''
       role: ''
       social:
@@ -129,17 +129,21 @@ team:
   text: ''
   title: 我们的团队
 timeline:
-  end: ''
+  end: 成为我们<br/>故事的<br/>一部分！
   events:
-    - desc: ''
-      image: ''
-      title: ''
-      year: ''
-    - desc: ''
-      image: ''
-      title: ''
-      year: ''
-    - alt: ''
+    - desc: >-
+        对客户来说，注意脂肪处理过程非常重要。
+        它们是如此之大，以至于智者有时会拒绝他的全部快乐，这确实是应该拒绝的，但是，它们也堕落了，而赞美者的追随者是多么痛苦！
+      image: assets/img/timeline/1.jpg
+      title: 我们卑微的开始
+      year: 2009-2011
+    - desc: >-
+        对客户来说，注意脂肪处理过程非常重要。
+        它们是如此之大，以至于智者有时会拒绝他的全部快乐，这确实是应该拒绝的，但是，它们也堕落了，而赞美者的追随者是多么痛苦！
+      image: assets/img/timeline/2.jpg
+      title: 代理机构诞生
+      year: 2011 年 3 月
+    - alt: 图片替代文字
       desc: ''
       image: ''
       title: ''

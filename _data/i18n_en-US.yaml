@@ -139,7 +139,7 @@ team:
   text: Lorem ipsum dolor sit amet consectetur.
   title: OUR AMAZING TEAM
 timeline:
-  end: Be Part <br> of Our <br> Story!
+  end: Be Part <br/> of Our <br/> Story!
   events:
     - desc: >-
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut

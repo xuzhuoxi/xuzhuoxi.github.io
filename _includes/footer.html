@@ -1,7 +1,7 @@
 <!-- Footer -->
+{% include i18n.html %}
 <footer class="footer" id="footer" style="background-color: white">
   <div class="container">
-    {% if site.locale and site.locale != "" and site.locale != nil %}
     <div class="row align-items-center">
       <div class="col-md-4">
         <span class="copyright"
@@ -11,7 +11,7 @@
       <!-- Social Media -->
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
-          {% for link in site.data.sitetext[site.locale].footer.social %}
+          {% for link in i18ntext.footer.social %}
           <li class="list-inline-item">
             {% if link.url %}
             <a href="{{ link.url }}">
@@ -27,47 +27,13 @@
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
             <a href="legal"
-              >{{ site.data.sitetext[site.locale].footer.legal | default:
+              >{{ i18ntext.footer.legal | default:
               "Privacy Policy" }}</a
             >
           </li>
         </ul>
       </div>
     </div>
-    {% else %}
-    <div class="row align-items-center">
-      <div class="col-md-4">
-        <span class="copyright"
-          >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
-        >
-      </div>
-      <!-- Social Media -->
-      <div class="col-md-4">
-        <ul class="list-inline social-buttons">
-          {% for link in site.data.sitetext.footer.social %}
-          <li class="list-inline-item">
-            {% if link.url %}
-            <a href="{{ link.url }}">
-              {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
-            </a>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      <!-- Legal -->
-      <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          <li class="list-inline-item">
-            <a href="legal"
-              >{{ site.data.sitetext.footer.legal | default:
-              "Privacy Policy" }}</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-    {% endif %}
   </div>
 </footer>
 {% if page.layout == "page" %}
