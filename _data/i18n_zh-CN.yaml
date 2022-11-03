@@ -60,7 +60,7 @@ navigation:
     section: portfolio
     title: 项目
   - page: about.html
-    section: about
+    section: about666
     title: 关于我们
   - page: timeline.html
     section: timeline
