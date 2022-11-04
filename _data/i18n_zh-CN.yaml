@@ -75,7 +75,9 @@ portfolio:
   closebutton: 关闭
   list:
     - alt: image alt text
+      download: 'https://assetstore.unity.com/packages/slug/234202'
       image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      more: 'https://assetstore.unity.com/packages/slug/234202'
       subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
       title: GameDriver Pro
     - alt: image alt text
@@ -83,23 +85,23 @@ portfolio:
       subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
       title: ExcelExporter
     - alt: image alt text
-      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      image: assets/img/portfolio/03-FileSync-400x300.jpg
       subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
       title: FileSync
     - alt: image alt text
-      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      image: assets/img/portfolio/04-SVNArchiver-400x300.jpg
       subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
       title: SVNArchiver
     - alt: image alt text
-      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      image: assets/img/portfolio/05-ImageResizer-400x300.jpg
       subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
       title: ImageResizer
     - alt: image alt text
-      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      image: assets/img/portfolio/06-ImageSplitter-400x300.jpg
       subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
       title: ImageSplitter
     - alt: image alt text
-      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      image: assets/img/portfolio/07-ImageClearer-400x300.jpg
       subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
       title: ImageClearer
   text: Lorem ipsum dolor sit amet consectetur.

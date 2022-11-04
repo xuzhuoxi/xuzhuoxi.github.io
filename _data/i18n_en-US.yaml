@@ -78,7 +78,9 @@ portfolio:
   closebutton: Close
   list:
     - alt: image alt text
+      download: 'https://assetstore.unity.com/packages/slug/234202'
       image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      more: 'https://assetstore.unity.com/packages/slug/234202'
       subtitle: GameDriver Pro is a game framework for Unity engine
       title: GameDriver Pro
     - alt: image alt text
@@ -86,23 +88,23 @@ portfolio:
       subtitle: GameDriver Pro is a game framework for Unity engine
       title: ExcelExporter
     - alt: image alt text
-      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      image: assets/img/portfolio/03-FileSync-400x300.jpg
       subtitle: GameDriver Pro is a game framework for Unity engine
       title: FileSync
     - alt: image alt text
-      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      image: assets/img/portfolio/04-SVNArchiver-400x300.jpg
       subtitle: GameDriver Pro is a game framework for Unity engine
       title: SVNArchiver
     - alt: image alt text
-      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      image: assets/img/portfolio/05-ImageResizer-400x300.jpg
       subtitle: GameDriver Pro is a game framework for Unity engine
       title: ImageResizer
     - alt: image alt text
-      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      image: assets/img/portfolio/06-ImageSplitter-400x300.jpg
       subtitle: GameDriver Pro is a game framework for Unity engine
       title: ImageSplitter
     - alt: image alt text
-      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      image: assets/img/portfolio/07-ImageClearer-400x300.jpg
       subtitle: GameDriver Pro is a game framework for Unity engine
       title: ImageClearer
   text: Lorem ipsum dolor sit amet consectetur.
