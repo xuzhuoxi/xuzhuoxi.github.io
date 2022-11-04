@@ -72,12 +72,36 @@ navigation:
   - title: 源代码
     url: 'https://github.com/raviriley/agency-jekyll-theme/'
 portfolio:
-  closebutton: 关闭项目
+  closebutton: 关闭
   list:
     - alt: image alt text
       image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
       subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
       title: GameDriver Pro
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
+      title: ExcelExporter
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
+      title: FileSync
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
+      title: SVNArchiver
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
+      title: ImageResizer
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
+      title: ImageSplitter
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
+      title: ImageClearer
   text: Lorem ipsum dolor sit amet consectetur.
   title: 项目
 services:

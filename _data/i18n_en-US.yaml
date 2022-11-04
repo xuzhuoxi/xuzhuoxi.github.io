@@ -75,12 +75,36 @@ navigation:
   - title: Theme Source
     url: 'https://github.com/raviriley/agency-jekyll-theme/'
 portfolio:
-  closebutton: Close Project
+  closebutton: Close
   list:
     - alt: image alt text
       image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
       subtitle: GameDriver Pro is a game framework for Unity engine
       title: GameDriver Pro
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro is a game framework for Unity engine
+      title: ExcelExporter
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro is a game framework for Unity engine
+      title: FileSync
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro is a game framework for Unity engine
+      title: SVNArchiver
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro is a game framework for Unity engine
+      title: ImageResizer
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro is a game framework for Unity engine
+      title: ImageSplitter
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro is a game framework for Unity engine
+      title: ImageClearer
   text: Lorem ipsum dolor sit amet consectetur.
   title: Portfolio
 services:
