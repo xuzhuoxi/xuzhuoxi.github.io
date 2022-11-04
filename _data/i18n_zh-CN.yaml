@@ -73,6 +73,11 @@ navigation:
     url: 'https://github.com/raviriley/agency-jekyll-theme/'
 portfolio:
   closebutton: 关闭项目
+  list:
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
+      title: GameDriver Pro
   text: Lorem ipsum dolor sit amet consectetur.
   title: 项目
 services:

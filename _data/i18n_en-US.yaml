@@ -76,6 +76,11 @@ navigation:
     url: 'https://github.com/raviriley/agency-jekyll-theme/'
 portfolio:
   closebutton: Close Project
+  list:
+    - alt: image alt text
+      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      subtitle: GameDriver Pro is a game framework for Unity engine
+      title: GameDriver Pro
   text: Lorem ipsum dolor sit amet consectetur.
   title: Portfolio
 services:
