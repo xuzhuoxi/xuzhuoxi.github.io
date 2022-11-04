@@ -3,7 +3,7 @@ layout: default
 ---
 {% include navheader.html %}
 
-{% include i18n.html %}
+{% include i18ntext.html %}
 {% for item in i18ntext.navigation %}
   {% if item.page %}
     {% include {{item.page}} section=item.section %}
