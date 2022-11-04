@@ -1,4 +1,6 @@
 ---
+itemid: id02
+num: pro02
 caption: #what displays in the portfolio grid:
   title: Example
   subtitle: subtitle

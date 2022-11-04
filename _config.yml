@@ -37,6 +37,8 @@ analytics:
 
 collections:
   portfolio:
+    output: false
+    sort_by: num
 
 markdown: kramdown
 

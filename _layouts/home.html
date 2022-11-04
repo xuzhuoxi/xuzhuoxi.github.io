@@ -6,6 +6,6 @@ layout: default
 {% include i18n.html %}
 {% for item in i18ntext.navigation %}
   {% if item.page %}
-    {% include {{item.page}} section = item.section %}
+    {% include {{item.page}} section=item.section %}
   {% endif %}
 {% endfor %}

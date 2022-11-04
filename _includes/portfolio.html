@@ -1,0 +1,21 @@
+<!-- Portfolio -->
+{%- include i18ntext.html -%}
+<section class="bg-light page-section" id="{{ include.section | default: "portfolio" }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">{{ i18ntext.portfolio.title | markdownify | default: "Portfolio" }}</h2>
+                <h3 class="section-subheading text-muted">{{ i18ntext.portfolio.text | markdownify }}</h3>
+            </div>
+        </div>
+        <div class="row">
+            {% for project in site.portfolio %}
+            {% include portfolio_grid.html index=forloop.index data=project %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% for project in site.portfolio %}
+{% include portfolio_detail.html index=forloop.index data=project %}
+{% endfor %}
