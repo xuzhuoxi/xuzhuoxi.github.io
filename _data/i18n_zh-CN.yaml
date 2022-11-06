@@ -90,42 +90,42 @@ navigation:
 portfolio:
   closebutton: 关闭
   list:
-    - alt: image alt text
+    - alt: GameDriver Pro Logo
       download: 'https://assetstore.unity.com/packages/slug/234202'
       image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
       itemid: id01
       more: 'https://assetstore.unity.com/packages/slug/234202'
       subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
       title: GameDriver Pro
-    - alt: image alt text
+    - alt: ExcelExporter Logo
       image: assets/img/portfolio/02-ExcelExporter-400x300.jpg
       itemid: id02
       subtitle: 根据模板导出Excel数据。支持**多种数据格式**和**任何一种编程语言**。支持**多操作系统**。
       title: ExcelExporter
-    - alt: image alt text
+    - alt: FileSync Logo
       image: assets/img/portfolio/03-FileSync-400x300.jpg
       itemid: id03
       subtitle: 通过配置进行同步、复制、删除文件，是**多工作区协作**的利器。支持**多操作系统**。
       title: FileSync
-    - alt: image alt text
+    - alt: SVNArchiver Logo
       image: assets/img/portfolio/04-SVNArchiver-400x300.jpg
       itemid: id04
       subtitle: 针对SVN进行数据归档的工具。支持**完整归档**、**差异归档**。支持**多操作系统**。
       title: SVNArchiver
-    - alt: image alt text
+    - alt: ImageResizer Logo
       image: assets/img/portfolio/05-ImageResizer-400x300.jpg
       itemid: id05
       subtitle: 按比例或尺寸对图片进行大小调整，支持**配置**、**批量**处理。支持**多操作系统**。
       title: ImageResizer
-    - alt: image alt text
+    - alt: ImageSplitter Logo
       image: assets/img/portfolio/06-ImageSplitter-400x300.jpg
       itemid: id06
       subtitle: 按固定尺寸或数量把图片进行分割。支持**大分辨率**图片。支持**规律化命名**。支持**多操作系统**。
       title: ImageSplitter
-    - alt: image alt text
+    - alt: ImageClearer Logo
       image: assets/img/portfolio/07-ImageClearer-400x300.jpg
       itemid: id07
-      subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
+      subtitle: 清理目录中像素符合条件的图片。
       title: ImageClearer
   text: Lorem ipsum dolor sit amet consectetur.
   title: 项目
