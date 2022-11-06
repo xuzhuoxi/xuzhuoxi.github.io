@@ -138,7 +138,7 @@ portfolio:
     - alt: ImageClearer Logo
       image: assets/img/portfolio/07-ImageClearer-400x300.jpg
       itemid: id07
-      subtitle: Clears the image files of pixel-eligible.
+      subtitle: Clean up images in the catalog with pixels that match the criteria.
       title: ImageClearer
   text: Lorem ipsum dolor sit amet consectetur.
   title: Portfolio
