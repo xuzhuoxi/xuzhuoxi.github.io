@@ -18,7 +18,7 @@
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
 							<h2>{{ i18ndata.title }}</h2>
-                            <p class="item-intro text-muted">{{ i18ndata.subtitle }}</p>
+                            <p class="item-intro text-muted">{{ i18ndata.subtitle | markdownify }}</p>
                             <img class="img-fluid d-block mx-auto"
                                  src="{{ i18ndata.image }}" alt="{{ i18ndata.alt }}"/>
                             <p>{{ data.content }}</p>
