@@ -117,7 +117,9 @@ portfolio:
     - alt: image alt text
       image: assets/img/portfolio/04-SVNArchiver-400x300.jpg
       itemid: id04
-      subtitle: GameDriver Pro is a game framework for Unity engine
+      subtitle: >-
+        Data archiving tool base on SVN. Supports full archiving and diff
+        archiving.
       title: SVNArchiver
     - alt: image alt text
       image: assets/img/portfolio/05-ImageResizer-400x300.jpg

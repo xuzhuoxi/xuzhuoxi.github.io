@@ -110,7 +110,7 @@ portfolio:
     - alt: image alt text
       image: assets/img/portfolio/04-SVNArchiver-400x300.jpg
       itemid: id04
-      subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
+      subtitle: 针对SVN进行数据归档的工具。支持完整归档、差异归档。
       title: SVNArchiver
     - alt: image alt text
       image: assets/img/portfolio/05-ImageResizer-400x300.jpg
