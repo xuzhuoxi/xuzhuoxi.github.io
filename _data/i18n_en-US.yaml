@@ -105,26 +105,28 @@ portfolio:
       itemid: id02
       subtitle: >-
         Export Excel data according to templates. Supports **multiple data
-        formats** and **any programming language**.
+        formats** and **any programming language**. **Multi-OS** support.
       title: ExcelExporter
     - alt: image alt text
       image: assets/img/portfolio/03-FileSync-400x300.jpg
       itemid: id03
       subtitle: >-
         Synchronize, copy, and delete files via configuration, a powerful tool
-        for **multi-workspace collaboration**.
+        for **multi-workspace collaboration**. **Multi-OS** support.
       title: FileSync
     - alt: image alt text
       image: assets/img/portfolio/04-SVNArchiver-400x300.jpg
       itemid: id04
       subtitle: >-
-        Data archiving tool base on SVN. Supports full archiving and diff
-        archiving.
+        Data archiving tool base on SVN. Supports **full archiving** and **diff
+        archiving**. **Multi-OS** support.
       title: SVNArchiver
     - alt: image alt text
       image: assets/img/portfolio/05-ImageResizer-400x300.jpg
       itemid: id05
-      subtitle: GameDriver Pro is a game framework for Unity engine
+      subtitle: >-
+        Resize pictures by scale or size, support for **configuration**,
+        **batch** processing. **Multi-OS** support.
       title: ImageResizer
     - alt: image alt text
       image: assets/img/portfolio/06-ImageSplitter-400x300.jpg
