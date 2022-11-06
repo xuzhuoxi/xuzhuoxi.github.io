@@ -100,11 +100,7 @@ portfolio:
     - alt: image alt text
       image: assets/img/portfolio/02-ExcelExporter-400x300.jpg
       itemid: id02
-      subtitle: |-
-        ExcelExport 是一个根据模板导出Excel表格数据的工具。<br/>
-        你可以把Excel表转化为编程语言的结构定义；<br/>
-        你可以把Excel数据转化为Json、Yaml等多种数据格式；<br/>
-        你也可以把Excel数据转化为sql脚本。
+      subtitle: 根据模板导出Excel数据。支持**多种数据格式**和**任何一种编程语言**。
       title: ExcelExporter
     - alt: image alt text
       image: assets/img/portfolio/03-FileSync-400x300.jpg

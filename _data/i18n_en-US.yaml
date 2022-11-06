@@ -104,16 +104,8 @@ portfolio:
       image: assets/img/portfolio/02-ExcelExporter-400x300.jpg
       itemid: id02
       subtitle: >-
-        ExcelExport is a tool for exporting Excel table data based on
-        templates.<br/>
-
-        You can convert Excel tables to programming language structure
-        definitions; <br/>
-
-        you can convert Excel data to Json, Yaml and many other data
-        formats;<br/>
-
-        you can also convert Excel data to sql scripts.
+        Export Excel data according to templates. Supports **multiple data
+        formats** and **any programming language**.
       title: ExcelExporter
     - alt: image alt text
       image: assets/img/portfolio/03-FileSync-400x300.jpg
