@@ -110,7 +110,9 @@ portfolio:
     - alt: image alt text
       image: assets/img/portfolio/03-FileSync-400x300.jpg
       itemid: id03
-      subtitle: GameDriver Pro is a game framework for Unity engine
+      subtitle: >-
+        Synchronize, copy, and delete files via configuration, a powerful tool
+        for **multi-workspace collaboration**.
       title: FileSync
     - alt: image alt text
       image: assets/img/portfolio/04-SVNArchiver-400x300.jpg

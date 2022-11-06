@@ -105,7 +105,7 @@ portfolio:
     - alt: image alt text
       image: assets/img/portfolio/03-FileSync-400x300.jpg
       itemid: id03
-      subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
+      subtitle: 通过配置进行同步、复制、删除文件，是**多工作区协作**的利器。
       title: FileSync
     - alt: image alt text
       image: assets/img/portfolio/04-SVNArchiver-400x300.jpg
