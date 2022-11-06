@@ -103,7 +103,15 @@ portfolio:
     - alt: image alt text
       image: assets/img/portfolio/02-ExcelExporter-400x300.jpg
       itemid: id02
-      subtitle: GameDriver Pro is a game framework for Unity engine
+      subtitle: >-
+        ExcelExport is a tool for exporting Excel table data based on templates.
+
+        You can convert Excel tables to programming language structure
+        definitions; 
+
+        you can convert Excel data to Json, Yaml and many other data formats;
+
+        you can also convert Excel data to sql scripts.
       title: ExcelExporter
     - alt: image alt text
       image: assets/img/portfolio/03-FileSync-400x300.jpg
