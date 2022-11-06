@@ -92,7 +92,7 @@ portfolio:
   list:
     - alt: GameDriver Pro Logo
       download: 'https://assetstore.unity.com/packages/slug/234202'
-      image: 'https://www.xuzhuoxi.com/GameDriver-Docs/assets/img/logo.png'
+      image: assets/img/portfolio/01-GameDriver Pro-400x300.jpg
       itemid: id01
       more: 'https://assetstore.unity.com/packages/slug/234202'
       subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
