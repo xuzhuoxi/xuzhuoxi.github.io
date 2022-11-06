@@ -131,7 +131,9 @@ portfolio:
     - alt: image alt text
       image: assets/img/portfolio/06-ImageSplitter-400x300.jpg
       itemid: id06
-      subtitle: GameDriver Pro is a game framework for Unity engine
+      subtitle: >-
+        Split images by fixed size or number. Support **large resolution**
+        images. Support **regularized naming**. **Multi-OS** support.
       title: ImageSplitter
     - alt: image alt text
       image: assets/img/portfolio/07-ImageClearer-400x300.jpg

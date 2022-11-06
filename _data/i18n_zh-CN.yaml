@@ -110,7 +110,7 @@ portfolio:
     - alt: image alt text
       image: assets/img/portfolio/04-SVNArchiver-400x300.jpg
       itemid: id04
-      subtitle: 针对SVN进行数据归档的工具。支持**完整归档**、**差异归档*。支持**多操作系统**。
+      subtitle: 针对SVN进行数据归档的工具。支持**完整归档**、**差异归档**。支持**多操作系统**。
       title: SVNArchiver
     - alt: image alt text
       image: assets/img/portfolio/05-ImageResizer-400x300.jpg
@@ -120,7 +120,7 @@ portfolio:
     - alt: image alt text
       image: assets/img/portfolio/06-ImageSplitter-400x300.jpg
       itemid: id06
-      subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架
+      subtitle: 按固定尺寸或数量把图片进行分割。支持**大分辨率**图片。支持**规律化命名**。支持**多操作系统**。
       title: ImageSplitter
     - alt: image alt text
       image: assets/img/portfolio/07-ImageClearer-400x300.jpg
