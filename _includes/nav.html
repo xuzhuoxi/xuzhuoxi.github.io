@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
                 {% for item in i18ntext.navigation %}
-				    {%- unless item.board_on -%}{%- continue -%}{%- endunless -%}
+				    {%- if item.nav_on == 'no' -%}{%- continue -%}{%- endif -%}
                     {% if item.url %}
                     <li class="nav-item"><a classitemnav-link js-scroll-trigger" href="{{ item.url }}" >{{ item.title }}</a> </li>
                     {% elsif item.section %}
