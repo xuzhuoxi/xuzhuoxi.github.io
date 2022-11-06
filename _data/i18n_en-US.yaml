@@ -53,26 +53,42 @@ header:
   text: It's Nice To Meet You
   title: Welcome!
 navigation:
-  - page: services.html
+  - board_on: 'true'
+    nav_on: 'true'
+    page: services.html
     section: service
     title: Services
-  - page: portfolio.html
+  - board_on: 'true'
+    nav_on: 'true'
+    page: portfolio.html
     section: portfolio
     title: Portfolio
-  - page: about.html
+  - board_on: 'true'
+    nav_on: 'true'
+    page: about.html
     section: about
     title: About
-  - page: timeline.html
+  - board_on: 'false'
+    nav_on: 'false'
+    page: timeline.html
     section: timeline
     title: Timeline
-  - page: team.html
+  - board_on: 'false'
+    nav_on: 'false'
+    page: team.html
     section: team
     title: Team
-  - page: clients.html
-  - page: contact.html
+  - board_on: 'false'
+    nav_on: 'false'
+    page: clients.html
+  - board_on: 'true'
+    nav_on: 'true'
+    page: contact.html
     section: contact
     title: Contact
-  - title: Theme Source
+  - board_on: 'false'
+    nav_on: 'false'
+    title: Theme Source
     url: 'https://github.com/raviriley/agency-jekyll-theme/'
 portfolio:
   closebutton: Close

@@ -50,26 +50,42 @@ header:
   text: 很高兴认识你
   title: 欢迎来到！
 navigation:
-  - page: services.html
+  - board_on: 'true'
+    nav_on: 'true'
+    page: services.html
     section: service
     title: 服务
-  - page: portfolio.html
+  - board_on: 'true'
+    nav_on: 'true'
+    page: portfolio.html
     section: portfolio
     title: 项目
-  - page: about.html
+  - board_on: 'true'
+    nav_on: 'true'
+    page: about.html
     section: about
     title: 关于
-  - page: timeline.html
+  - board_on: 'false'
+    nav_on: 'false'
+    page: timeline.html
     section: timeline
     title: 成长线
-  - page: team.html
+  - board_on: 'false'
+    nav_on: 'false'
+    page: team.html
     section: team
     title: 团队
-  - page: clients.html
-  - page: contact.html
+  - board_on: 'false'
+    nav_on: 'false'
+    page: clients.html
+  - board_on: 'true'
+    nav_on: 'true'
+    page: contact.html
     section: contact
     title: 联系我们
-  - title: 源代码
+  - board_on: 'false'
+    nav_on: 'false'
+    title: 源代码
     url: 'https://github.com/raviriley/agency-jekyll-theme/'
 portfolio:
   closebutton: 关闭
