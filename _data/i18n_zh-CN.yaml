@@ -47,8 +47,8 @@ footer:
 header:
   button: 告诉我更多
   buttonlink: '#service'
-  text: 很高兴认识你
-  title: 欢迎来到！
+  text: 很高兴遇见你
+  title: 欢迎
 navigation:
   - board_on: 'yes'
     nav_on: 'yes'
@@ -59,7 +59,7 @@ navigation:
     nav_on: 'yes'
     page: portfolio.html
     section: portfolio
-    title: 项目
+    title: 工具
   - board_on: 'yes'
     nav_on: 'yes'
     page: about.html
@@ -141,8 +141,8 @@ portfolio:
       subtitle: 清理目录中像素符合条件的图片。
       title: ImageClearer
   more: 了解更多
-  text: Lorem ipsum dolor sit amet consectetur.
-  title: 项目
+  text: 有效地利用工具，使您的团队工作变得高效起来。
+  title: 工具
 services:
   list:
     - desc: 对客户来说，注意脂肪处理过程非常重要。 最小的，最重要的是，阻碍了从伟大的工程师那里发现这些东西的工程师。
@@ -223,4 +223,4 @@ timeline:
       year: 2009-2011
   text: Lorem ipsum 成长线
   title: 成长线
-title: 我的工具仓库
+title: 快乐生活

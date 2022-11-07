@@ -51,7 +51,7 @@ header:
   button: Tell Me More
   buttonlink: '#service'
   text: It's Nice To Meet You
-  title: Welcome!
+  title: 'Welcome '
 navigation:
   - board_on: 'yes'
     nav_on: 'yes'
@@ -62,7 +62,7 @@ navigation:
     nav_on: 'yes'
     page: portfolio.html
     section: portfolio
-    title: Portfolio
+    title: Tools
   - board_on: 'yes'
     nav_on: 'yes'
     page: about.html
@@ -154,8 +154,8 @@ portfolio:
       subtitle: Clean up images in the catalog with pixels that match the criteria.
       title: ImageClearer
   more: Learn More
-  text: Lorem ipsum dolor sit amet consectetur.
-  title: Portfolio
+  text: Use tools effectively to make your team work more efficiently.
+  title: Tools
 services:
   list:
     - desc: >-
@@ -245,4 +245,4 @@ timeline:
       year: 2009-2011
   text: Lorem ipsum timeline
   title: Timeline
-title: My Development Toolbox
+title: Happy Living
