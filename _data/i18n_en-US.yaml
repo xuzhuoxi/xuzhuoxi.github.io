@@ -92,54 +92,68 @@ navigation:
     url: 'https://github.com/raviriley/agency-jekyll-theme/'
 portfolio:
   closebutton: Close
+  download: Download
   list:
     - alt: GameDriver Pro Logo
       download: 'https://assetstore.unity.com/packages/slug/234202'
       image: assets/img/portfolio/01-GameDriver Pro-400x300.jpg
       itemid: id01
-      more: 'https://assetstore.unity.com/packages/slug/234202'
-      subtitle: GameDriver Pro is a game framework for Unity engine
+      more: 'https://www.xuzhuoxi.com/GameDriver-Docs/'
+      subtitle: GameDriver Pro is a game framework for Unity engine.
       title: GameDriver Pro
     - alt: ExcelExporter Logo
+      download: 'https://github.com/xuzhuoxi/ExcelExporter/releases'
       image: assets/img/portfolio/02-ExcelExporter-400x300.jpg
       itemid: id02
+      more: 'https://github.com/xuzhuoxi/ExcelExporter'
       subtitle: >-
         Export Excel data according to templates. Supports **multiple data
         formats** and **any programming language**. **Multi-OS** support.
       title: ExcelExporter
     - alt: FileSync Logo
+      download: 'https://github.com/xuzhuoxi/FileSync/releases'
       image: assets/img/portfolio/03-FileSync-400x300.jpg
       itemid: id03
+      more: 'https://github.com/xuzhuoxi/FileSync'
       subtitle: >-
         Synchronize, copy, and delete files via configuration, a powerful tool
         for **multi-workspace collaboration**. **Multi-OS** support.
       title: FileSync
     - alt: SVNArchiver Logo
+      download: 'https://github.com/xuzhuoxi/SVNArchiver/releases'
       image: assets/img/portfolio/04-SVNArchiver-400x300.jpg
       itemid: id04
+      more: 'https://github.com/xuzhuoxi/SVNArchiver'
       subtitle: >-
         Data archiving tool base on SVN. Supports **full archiving** and **diff
         archiving**. **Multi-OS** support.
       title: SVNArchiver
     - alt: ImageResizer Logo
+      download: 'https://github.com/xuzhuoxi/ImageResizer/releases'
       image: assets/img/portfolio/05-ImageResizer-400x300.jpg
       itemid: id05
+      more: 'https://github.com/xuzhuoxi/ImageResizer'
       subtitle: >-
         Resize pictures by scale or size, support for **configuration**,
         **batch** processing. **Multi-OS** support.
       title: ImageResizer
     - alt: ImageSplitter Logo
+      download: 'https://github.com/xuzhuoxi/ImageSplitter/releases'
       image: assets/img/portfolio/06-ImageSplitter-400x300.jpg
       itemid: id06
+      more: 'https://github.com/xuzhuoxi/ImageSplitter'
       subtitle: >-
         Split images by fixed size or number. Support **large resolution**
         images. Support **regularized naming**. **Multi-OS** support.
       title: ImageSplitter
     - alt: ImageClearer Logo
+      download: 'https://github.com/xuzhuoxi/ImageClearer/releases'
       image: assets/img/portfolio/07-ImageClearer-400x300.jpg
       itemid: id07
+      more: 'https://github.com/xuzhuoxi/ImageClearer'
       subtitle: Clean up images in the catalog with pixels that match the criteria.
       title: ImageClearer
+  more: Learn More
   text: Lorem ipsum dolor sit amet consectetur.
   title: Portfolio
 services:

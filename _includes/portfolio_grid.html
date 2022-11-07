@@ -17,8 +17,14 @@
         <p class="text-muted">{{ i18ndata.subtitle | markdownify }}</p>
     </div>
 	<div class="portfolio-more">
-		<a class="btn2 btn2-primary btn2-lg" href="{{ "/docs/home/" | relative_url }}" role="button">了解更多</a>
-		<a class="btn2 btn2-primary btn2-lg" href="{{ "/docs/home/" | relative_url }}" role="button">下载</a>
+	{%- if i18ndata.more -%}
+		<a class="btn2 btn2-primary btn2-lg" href="{{ i18ndata.more | absolute_url }}" 
+			role="button">{{i18ntext.portfolio.more}}</a>
+	{%- endif -%}
+	{%- if i18ndata.download -%}
+		<a class="btn2 btn2-primary btn2-lg" href="{{ i18ndata.download | absolute_url }}" 
+			role="button">{{i18ntext.portfolio.download}}</a>
+	{%- endif -%}
     </div>
 </div>
 <!-- End Portfolio Grid -->

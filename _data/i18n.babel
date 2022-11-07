@@ -1459,6 +1459,22 @@
 									</translation>
 								</translations>
 							</concept_node>
+							<concept_node>
+								<name>download</name>
+								<description/>
+								<comment/>
+								<default_text/>
+								<translations>
+									<translation>
+										<language>en-US</language>
+										<approved>false</approved>
+									</translation>
+									<translation>
+										<language>zh-CN</language>
+										<approved>false</approved>
+									</translation>
+								</translations>
+							</concept_node>
 							<folder_node>
 								<name>list</name>
 								<children>
@@ -1599,6 +1615,22 @@
 												</translations>
 											</concept_node>
 											<concept_node>
+												<name>download</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
+											<concept_node>
 												<name>image</name>
 												<description/>
 												<comment/>
@@ -1616,6 +1648,22 @@
 											</concept_node>
 											<concept_node>
 												<name>itemid</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
+											<concept_node>
+												<name>more</name>
 												<description/>
 												<comment/>
 												<default_text/>
@@ -1684,6 +1732,22 @@
 												</translations>
 											</concept_node>
 											<concept_node>
+												<name>download</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
+											<concept_node>
 												<name>image</name>
 												<description/>
 												<comment/>
@@ -1701,6 +1765,22 @@
 											</concept_node>
 											<concept_node>
 												<name>itemid</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
+											<concept_node>
+												<name>more</name>
 												<description/>
 												<comment/>
 												<default_text/>
@@ -1769,6 +1849,22 @@
 												</translations>
 											</concept_node>
 											<concept_node>
+												<name>download</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
+											<concept_node>
 												<name>image</name>
 												<description/>
 												<comment/>
@@ -1786,6 +1882,22 @@
 											</concept_node>
 											<concept_node>
 												<name>itemid</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
+											<concept_node>
+												<name>more</name>
 												<description/>
 												<comment/>
 												<default_text/>
@@ -1854,6 +1966,22 @@
 												</translations>
 											</concept_node>
 											<concept_node>
+												<name>download</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
+											<concept_node>
 												<name>image</name>
 												<description/>
 												<comment/>
@@ -1871,6 +1999,22 @@
 											</concept_node>
 											<concept_node>
 												<name>itemid</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
+											<concept_node>
+												<name>more</name>
 												<description/>
 												<comment/>
 												<default_text/>
@@ -1939,6 +2083,22 @@
 												</translations>
 											</concept_node>
 											<concept_node>
+												<name>download</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
+											<concept_node>
 												<name>image</name>
 												<description/>
 												<comment/>
@@ -1956,6 +2116,22 @@
 											</concept_node>
 											<concept_node>
 												<name>itemid</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
+											<concept_node>
+												<name>more</name>
 												<description/>
 												<comment/>
 												<default_text/>
@@ -2024,6 +2200,22 @@
 												</translations>
 											</concept_node>
 											<concept_node>
+												<name>download</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
+											<concept_node>
 												<name>image</name>
 												<description/>
 												<comment/>
@@ -2041,6 +2233,22 @@
 											</concept_node>
 											<concept_node>
 												<name>itemid</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
+											<concept_node>
+												<name>more</name>
 												<description/>
 												<comment/>
 												<default_text/>
@@ -2091,6 +2299,22 @@
 									</folder_node>
 								</children>
 							</folder_node>
+							<concept_node>
+								<name>more</name>
+								<description/>
+								<comment/>
+								<default_text/>
+								<translations>
+									<translation>
+										<language>en-US</language>
+										<approved>false</approved>
+									</translation>
+									<translation>
+										<language>zh-CN</language>
+										<approved>false</approved>
+									</translation>
+								</translations>
+							</concept_node>
 							<concept_node>
 								<name>text</name>
 								<description/>
