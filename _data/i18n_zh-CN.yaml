@@ -1,7 +1,9 @@
 about:
-  body: 对客户来说，注意脂肪处理过程非常重要。 或者那些，辛苦的真相，没有人可以看到，整个身体，从哪里来的其他方式。 **降价**支持。
-  text: 我们的故事
-  title: 关于我们
+  body: |-
+    对于我来讲，开发是一件有趣的事。电脑通上电，就能把一个想法变成一个实实在在的作品。
+    优雅，实在是太优雅了！
+  text: ''
+  title: 关于我
 clients:
   horizontal-scrolling: ''
   list:
@@ -141,7 +143,7 @@ portfolio:
       subtitle: 清理目录中像素符合条件的图片。
       title: ImageClearer
   more: 了解更多
-  text: 有效地利用工具，使您的团队工作变得高效起来。
+  text: 有效地利用工具，使您的工作变得高效起来
   title: 工具
 services:
   list:

@@ -1,10 +1,11 @@
 about:
   body: >-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-    laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea,
-    alias ut unde. **Markdown** supported.
-  text: our story
-  title: 'About Us '
+    For me, development is interesting. When the computer is powered on, it can
+    turn an idea into a real work. 
+
+    Elegant, so elegant!
+  text: ''
+  title: About Me
 clients:
   horizontal-scrolling: ''
   list:
@@ -154,7 +155,7 @@ portfolio:
       subtitle: Clean up images in the catalog with pixels that match the criteria.
       title: ImageClearer
   more: Learn More
-  text: Use tools effectively to make your team work more efficiently.
+  text: Use tools effectively to make your work more efficiently
   title: Tools
 services:
   list:
