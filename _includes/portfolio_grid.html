@@ -18,11 +18,11 @@
     </div>
 	<div class="portfolio-more">
 	{% if i18ndata.more %}
-		<a class="btn2 btn2-primary btn2-lg" href="{{ i18ndata.more | absolute_url }}" 
+		<a class="btn2 btn2-primary btn2-lg" href="{{ i18ndata.more | absolute_url }} " target="_blank" 
 			role="button">{{i18ntext.portfolio.more}}</a>
 	{% endif %}
 	{% if i18ndata.download %}
-		<a class="btn2 btn2-primary btn2-lg" href="{{ i18ndata.download | absolute_url }}" 
+		<a class="btn2 btn2-primary btn2-lg" href="{{ i18ndata.download | absolute_url }}" target="_blank" 
 			role="button">{{i18ntext.portfolio.download}}</a>
 	{% endif %}
     </div>
