@@ -28,7 +28,7 @@ contact:
   phone: 电话号码
   phone-validation: 请输入您的电话号码。
   subject: 联系表格提交
-  submit: ''
+  submit: 发送消息
   text: ''
   title: 联系我们
 footer:
