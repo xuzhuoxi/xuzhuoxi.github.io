@@ -1,13 +1,7 @@
+// Button variants
 //
-// Buttons
-// --------------------------------------------------
-
-@mixin button-size($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
-  padding: $padding-vertical $padding-horizontal;
-  font-size: $font-size;
-  line-height: $line-height;
-  border-radius: $border-radius;
-}
+// Easily pump out default styles, as well as :hover, :focus, :active,
+// and disabled options for all buttons
 
 @mixin button-variant($color, $background, $border) {
   color: $color;
@@ -62,9 +56,10 @@
   }
 }
 
-@mixin user-select($select) {
-  -webkit-user-select: $select;
-     -moz-user-select: $select;
-      -ms-user-select: $select; // IE10+
-          user-select: $select;
+// Button sizes
+@mixin button-size($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
+  padding: $padding-vertical $padding-horizontal;
+  font-size: $font-size;
+  line-height: $line-height;
+  border-radius: $border-radius;
 }

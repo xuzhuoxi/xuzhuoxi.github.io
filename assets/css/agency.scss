@@ -5,7 +5,7 @@
 @import "base/variables.scss";
 @import "base/variables-custom.scss";
 @import "base/mixins.scss";
-@import "base/mixins-custom.scss";
+@import "base/mixins";
 
 // Custom colors
 $primary: {{ site.data.style.highlight | default: "#fed136" }} !default;
