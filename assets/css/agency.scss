@@ -3,6 +3,7 @@
 @charset "utf-8";
 // Core variables and mixins
 @import "base/variables.scss";
+@import "base/variables-custom.scss";
 @import "base/mixins.scss";
 
 // Custom colors
@@ -19,6 +20,7 @@ $contact-image: "{{ site.data.style.contact-image }}";
 
 // Components
 @import "components/buttons.scss";
+@import "components/buttons-custom.scss";
 @import "components/navbar.scss";
 @import "components/client-scroll.scss";
 
