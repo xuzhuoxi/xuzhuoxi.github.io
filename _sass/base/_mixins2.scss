@@ -1,0 +1,40 @@
+// Mixins
+// --------------------------------------------------
+
+// Utilities
+@import "mixins2/hide-text";
+@import "mixins2/opacity";
+@import "mixins2/image";
+@import "mixins2/labels";
+@import "mixins2/reset-filter";
+@import "mixins2/resize";
+@import "mixins2/responsive-visibility";
+@import "mixins2/size";
+@import "mixins2/tab-focus";
+@import "mixins2/reset-text";
+@import "mixins2/text-emphasis";
+@import "mixins2/text-overflow";
+@import "mixins2/vendor-prefixes";
+
+// Components
+@import "mixins2/alerts";
+@import "mixins2/buttons";
+@import "mixins2/panels";
+@import "mixins2/pagination";
+@import "mixins2/list-group";
+@import "mixins2/nav-divider";
+@import "mixins2/forms";
+@import "mixins2/progress-bar";
+@import "mixins2/table-row";
+
+// Skins
+@import "mixins2/background-variant";
+@import "mixins2/border-radius";
+@import "mixins2/gradients";
+
+// Layout
+@import "mixins2/clearfix";
+@import "mixins2/center-block";
+@import "mixins2/nav-vertical-align";
+@import "mixins2/grid-framework";
+@import "mixins2/grid";
