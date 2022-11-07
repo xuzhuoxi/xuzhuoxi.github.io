@@ -63,6 +63,16 @@
       padding: 25px;
       text-align: center;
       background-color: $white;
+      h4 {
+        margin: 0;
+        text-transform: none;
+      }
+      p {
+        font-size: 16px;
+        font-style: italic;
+        margin: 0;
+        @include serif-font;
+      }
     }
   }
   * {
