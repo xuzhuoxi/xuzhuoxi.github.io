@@ -20,7 +20,7 @@ $contact-image: "{{ site.data.style.contact-image }}";
 
 // Components
 @import "components/buttons.scss";
-@import "components/buttons-custom.scss";
+//@import "components/buttons-custom.scss";
 @import "components/navbar.scss";
 @import "components/client-scroll.scss";
 
