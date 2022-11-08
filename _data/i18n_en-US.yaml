@@ -209,13 +209,11 @@ timeline:
   end: Be Part <br/> of Our <br/> Story!
   events:
     - desc: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-        voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
-        recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium
-        consectetur!
-      image: assets/img/timeline/1.jpg
-      title: Our Humble Beginnings
-      year: 2009-2011
+        Studied at **South China Normal University**, majoring in **Software
+        Engineering**.
+      image: assets/img/timeline/1.png
+      title: My College Life
+      year: 2006-2010
     - desc: >-
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
         voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,

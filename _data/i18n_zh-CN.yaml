@@ -192,12 +192,10 @@ team:
 timeline:
   end: 成为我们<br/>故事的<br/>一部分！
   events:
-    - desc: >-
-        对客户来说，注意脂肪处理过程非常重要。
-        它们是如此之大，以至于智者有时会拒绝他的全部快乐，这确实是应该拒绝的，但是，它们也堕落了，而赞美者的追随者是多么痛苦！
-      image: assets/img/timeline/1.jpg
-      title: 我们卑微的开始
-      year: 2009-2011
+    - desc: 就读于**华南师范大学**，专业为**软件工程**。
+      image: assets/img/timeline/1.png
+      title: 我的大学生活
+      year: 2006-2010
     - desc: >-
         对客户来说，注意脂肪处理过程非常重要。
         它们是如此之大，以至于智者有时会拒绝他的全部快乐，这确实是应该拒绝的，但是，它们也堕落了，而赞美者的追随者是多么痛苦！
@@ -217,5 +215,5 @@ timeline:
       title: 标题
       year: 2009-2011
   text: Lorem ipsum 成长线
-  title: 成长线
+  title: 经历
 title: 快乐生活
