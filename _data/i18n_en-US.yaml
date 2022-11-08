@@ -27,7 +27,6 @@ contact:
   email-validation: Please enter your email address.
   message: Message*
   message-validation: Please enter a message.
-  mymail: xuzhuoxi@gmail.com
   name: Name*
   name-validation: Please enter your name.
   phone: Phone Number
@@ -63,8 +62,8 @@ navigation:
     page: about.html
     section: about
     title: About
-  - board_on: 'no'
-    nav_on: 'no'
+  - board_on: 'yes'
+    nav_on: 'yes'
     page: timeline.html
     section: timeline
     title: Timeline

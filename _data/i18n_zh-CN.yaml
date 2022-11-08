@@ -25,7 +25,6 @@ contact:
   email-validation: 请输入您的电子邮件地址。
   message: 信息*
   message-validation: 请输入消息。
-  mymail: xuzhuoxi@gmail.com
   name: 姓名*
   name-validation: 请输入你的名字。
   phone: 电话号码
@@ -61,11 +60,11 @@ navigation:
     page: about.html
     section: about
     title: 关于
-  - board_on: 'no'
-    nav_on: 'no'
+  - board_on: 'yes'
+    nav_on: 'yes'
     page: timeline.html
     section: timeline
-    title: 成长线
+    title: 经历
   - board_on: 'no'
     nav_on: 'no'
     page: team.html
