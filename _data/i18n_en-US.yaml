@@ -218,19 +218,20 @@ timeline:
       image: assets/img/timeline/2.png
       title: Graduate
       year: 2010年7月
-    - alt: image alt text
+    - alt: Aola
       desc: >-
-        Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll
-        theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For
-        more information, visit the documentation.
+        Worked for **Guangzhou Baitian Information Technology Co.,Ltd.**, Game
+        Development Engineer of **Aola Team**. 
+
+        It was an important time for me to consolidate my technical foundation.
       image: assets/img/timeline/3.jpg
-      title: Jekyll Theme is created
+      title: Game Development Engineer
       year: 2010-2015
     - align: right
       desc: 'Your description here, **Markdown** is fully supported.'
       image: assets/img/timeline/4.jpg
       title: Title
-      year: 2009-2011
+      year: 2015-
   text: Lorem ipsum timeline
   title: Timeline
 title: Happy Living

@@ -200,18 +200,18 @@ timeline:
       image: assets/img/timeline/2.png
       title: 毕业
       year: 2010年7月
-    - alt: 图片替代文字
-      desc: >-
-        Ravi Riley 将基于 Bootstrap 的主题 Agency 转换为 Jekyll 主题。 Jekyll 主题可以作为 Ruby
-        gem 安装，也可以远程安装。 有关更多信息，请访问文档。
+    - alt: Aola
+      desc: |-
+        就职于**广州百田信息科技有限公司**，**奥拉星项目组**游戏开发工程师。
+        是我巩固技术基础的重要一段时间。
       image: assets/img/timeline/3.jpg
-      title: Jekyll 主题创建
+      title: 游戏开发工程师
       year: 2010-2015
     - align: right
       desc: 您在此处的描述，**Markdown** 完全支持。
       image: assets/img/timeline/4.jpg
       title: 标题
-      year: 2009-2011
+      year: 2015-
   text: Lorem ipsum 成长线
   title: 经历
 title: 快乐生活
