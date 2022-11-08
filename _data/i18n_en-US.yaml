@@ -34,20 +34,13 @@ contact:
   subject: Contact Form Submission
   submit: Send Message
   text: Lorem ipsum or call 123456789
-  title: Contact Us
+  title: Contact
 footer:
   legal: Privacy Policy
   social:
-    - icon: fab fa-twitter
-      url: 'https://twitter.com'
-    - icon: fab fa-facebook-f
-      url: 'https://facebook.com'
-    - icon: fab fa-linkedin-in
-      url: 'https://linkedin.com'
     - icon: fab fa-github
-      url: 'https://github.com/raviriley/agency-jekyll-theme'
-    - icon: fab fa-instagram
-      url: 'https://instagram.com'
+      url: 'https://github.com/xuzhuoxi'
+  url: legal
 header:
   button: Tell Me More
   buttonlink: '#service'

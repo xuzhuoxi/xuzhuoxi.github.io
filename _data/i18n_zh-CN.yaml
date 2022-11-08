@@ -32,20 +32,13 @@ contact:
   subject: 联系表格提交
   submit: 发送消息
   text: ''
-  title: 联系我们
+  title: 联系我
 footer:
   legal: 隐私政策
   social:
-    - icon: fab fa-twitter
-      url: 'https://twitter.com'
-    - icon: fab fa-facebook-f
-      url: 'https://facebook.com'
-    - icon: fab fa-linkedin-in
-      url: 'https://linkedin.com'
     - icon: fab fa-github
-      url: 'https://github.com/raviriley/agency-jekyll-theme'
-    - icon: fab fa-instagram
-      url: ''
+      url: 'https://github.com/xuzhuoxi'
+  url: legal_en
 header:
   button: 告诉我更多
   buttonlink: '#service'
