@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Privacy Policy
+title: 隐私政策
 background: grey
 ---
 

@@ -27,13 +27,14 @@ contact:
   email-validation: Please enter your email address.
   message: Message*
   message-validation: Please enter a message.
+  mymail: xuzhuoxi@gmail.com
   name: Name*
   name-validation: Please enter your name.
   phone: Phone Number
   phone-validation: Please enter your phone number.
   subject: Contact Form Submission
   submit: Send Message
-  text: Lorem ipsum or call 123456789
+  text: have a thought? You can contact me!
   title: Contact
 footer:
   legal: Privacy Policy
