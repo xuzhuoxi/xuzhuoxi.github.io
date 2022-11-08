@@ -214,14 +214,10 @@ timeline:
       image: assets/img/timeline/1.png
       title: My College Life
       year: 2006-2010
-    - desc: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-        voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
-        recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium
-        consectetur!
-      image: assets/img/timeline/2.jpg
-      title: An Agency is Born
-      year: March 2011
+    - desc: Graduated from university in July 2010 and started professional career.
+      image: assets/img/timeline/2.png
+      title: Graduate
+      year: 2010年7月
     - alt: image alt text
       desc: >-
         Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll
@@ -229,7 +225,7 @@ timeline:
         more information, visit the documentation.
       image: assets/img/timeline/3.jpg
       title: Jekyll Theme is created
-      year: '2019'
+      year: 2010-2015
     - align: right
       desc: 'Your description here, **Markdown** is fully supported.'
       image: assets/img/timeline/4.jpg

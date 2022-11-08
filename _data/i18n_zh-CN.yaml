@@ -196,19 +196,17 @@ timeline:
       image: assets/img/timeline/1.png
       title: 我的大学生活
       year: 2006-2010
-    - desc: >-
-        对客户来说，注意脂肪处理过程非常重要。
-        它们是如此之大，以至于智者有时会拒绝他的全部快乐，这确实是应该拒绝的，但是，它们也堕落了，而赞美者的追随者是多么痛苦！
-      image: assets/img/timeline/2.jpg
-      title: 代理机构诞生
-      year: 2011 年 3 月
+    - desc: 2010年7月大学毕业，开始了职业生涯。
+      image: assets/img/timeline/2.png
+      title: 毕业
+      year: 2010年7月
     - alt: 图片替代文字
       desc: >-
         Ravi Riley 将基于 Bootstrap 的主题 Agency 转换为 Jekyll 主题。 Jekyll 主题可以作为 Ruby
         gem 安装，也可以远程安装。 有关更多信息，请访问文档。
       image: assets/img/timeline/3.jpg
       title: Jekyll 主题创建
-      year: '2019'
+      year: 2010-2015
     - align: right
       desc: 您在此处的描述，**Markdown** 完全支持。
       image: assets/img/timeline/4.jpg
