@@ -143,7 +143,7 @@ services:
   list:
     - desc: 对客户来说，注意脂肪处理过程非常重要。 最小的，最重要的是，阻碍了从伟大的工程师那里发现这些东西的工程师。
       icon: fas fa-shopping-cart
-      title: 电子商务
+      title: 游戏
     - desc: 对客户来说，注意脂肪处理过程非常重要。 最小的，最重要的是，阻碍了从伟大的工程师那里发现这些东西的工程师。
       icon: fas fa-laptop
       title: 响应式设计
