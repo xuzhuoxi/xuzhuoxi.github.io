@@ -2986,22 +2986,6 @@
 					<folder_node>
 						<name>timeline</name>
 						<children>
-							<concept_node>
-								<name>end</name>
-								<description/>
-								<comment/>
-								<default_text/>
-								<translations>
-									<translation>
-										<language>en-US</language>
-										<approved>false</approved>
-									</translation>
-									<translation>
-										<language>zh-CN</language>
-										<approved>false</approved>
-									</translation>
-								</translations>
-							</concept_node>
 							<folder_node>
 								<name>events</name>
 								<children>
@@ -3384,6 +3368,22 @@
 									</folder_node>
 								</children>
 							</folder_node>
+							<concept_node>
+								<name>start_align</name>
+								<description/>
+								<comment/>
+								<default_text/>
+								<translations>
+									<translation>
+										<language>en-US</language>
+										<approved>false</approved>
+									</translation>
+									<translation>
+										<language>zh-CN</language>
+										<approved>false</approved>
+									</translation>
+								</translations>
+							</concept_node>
 							<concept_node>
 								<name>text</name>
 								<description/>

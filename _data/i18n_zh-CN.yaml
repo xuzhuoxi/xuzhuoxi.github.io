@@ -190,7 +190,6 @@ team:
   text: Lorem ipsum dolor sit amet consectetur.
   title: 我们的团队
 timeline:
-  end: 成为我们<br/>故事的<br/>一部分！
   events:
     - desc: 就读于**华南师范大学**，专业为**软件工程**。
       image: assets/img/timeline/0.png
@@ -213,14 +212,15 @@ timeline:
         做了不少HTML游戏项目。<br/>
         以中度和重度为主。
       image: assets/img/timeline/3.png
-      title: HTML5游戏开发主程序
+      title: HTML5 游戏开发主程序
       year: 2015-2018
     - desc: |-
-        做一些有意义的事件。<br/>
+        做些有意义的事件<br/>
         摸爬滚打中……
       image: assets/img/timeline/4.jpg
       title: Unity 游戏开发主程序
       year: 2018-现在
+  start_align: right
   text: ''
   title: 经历
 title: 快乐生活
