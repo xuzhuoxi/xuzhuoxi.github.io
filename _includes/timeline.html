@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-lg-12">
             <ul class="timeline">
-                {%- assign align = i18ntext.timeline.start_align -%}
+                {%- assign align = i18ntext.timeline.start_align -%}			
 				{%- assign events = i18ntext.timeline.events | reverse -%}
                 {%- for event in events -%}
                 {%- if align == "right" -%}
@@ -45,15 +45,6 @@
                     </div>
                 </li>
                 {% endfor %}
-
-                {% if i18ntext.timeline.end %}
-                <li class="timeline-inverted">
-                    <div class="timeline-image">
-                        <h4>{{ i18ntext.timeline.end }}</h4>
-                    </div>
-                </li>
-                {% endif %}
-
             </ul>
         </div>
     </div>
