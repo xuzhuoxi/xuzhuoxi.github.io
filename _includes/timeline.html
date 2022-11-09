@@ -12,7 +12,8 @@
         <div class="col-lg-12">
             <ul class="timeline">
                 {%- assign align = i18ntext.timeline.start_align -%}
-                {%- for event in i18ntext.timeline.events | reverse -%}
+				{%- assign events = i18ntext.timeline.events | reverse -%}
+                {%- for event in events -%}
                 {%- if align == "right" -%}
                     {%- if event.align and event.align == "left" -%}
                         {%- assign align = "right" -%}
