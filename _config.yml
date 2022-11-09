@@ -42,7 +42,7 @@ collections:
 
 markdown: kramdown
 
-formspree_contact_form: 'f/xvoydvqz'
+formspree_contact_endpoint : 'f/xvoydvqz'
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam

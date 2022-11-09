@@ -23,7 +23,7 @@ clients:
 contact:
   email: 电子邮箱*
   email-validation: 请输入您的电子邮件地址。
-  message: Message*
+  message: 信息*
   message-validation: 请输入消息。
   name: 姓名*
   name-validation: 请输入你的名字。
