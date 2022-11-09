@@ -3009,6 +3009,22 @@
 										<name>0</name>
 										<children>
 											<concept_node>
+												<name>alt</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
+											<concept_node>
 												<name>desc</name>
 												<description/>
 												<comment/>
@@ -3077,6 +3093,22 @@
 									<folder_node>
 										<name>1</name>
 										<children>
+											<concept_node>
+												<name>alt</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
 											<concept_node>
 												<name>desc</name>
 												<description/>
@@ -3232,7 +3264,7 @@
 										<name>3</name>
 										<children>
 											<concept_node>
-												<name>align</name>
+												<name>alt</name>
 												<description/>
 												<comment/>
 												<default_text/>
@@ -3316,6 +3348,22 @@
 									<folder_node>
 										<name>4</name>
 										<children>
+											<concept_node>
+												<name>alt</name>
+												<description/>
+												<comment/>
+												<default_text/>
+												<translations>
+													<translation>
+														<language>en-US</language>
+														<approved>false</approved>
+													</translation>
+													<translation>
+														<language>zh-CN</language>
+														<approved>false</approved>
+													</translation>
+												</translations>
+											</concept_node>
 											<concept_node>
 												<name>desc</name>
 												<description/>

@@ -208,13 +208,15 @@ team:
 timeline:
   align: left
   events:
-    - desc: >-
+    - alt: SCNU
+      desc: >-
         Studied at **South China Normal University**, majoring in **Software
         Engineering**.
       image: assets/img/timeline/0.png
       title: My College Life
       year: 2006-2010
-    - desc: Graduated from university in July 2010 and started professional career.
+    - alt: Graduate
+      desc: Graduated from university in July 2010 and started professional career.
       image: assets/img/timeline/1.png
       title: Graduate
       year: July 2010
@@ -226,14 +228,15 @@ timeline:
       image: assets/img/timeline/2.jpg
       title: Game Development Engineer
       year: 2010-2015
-    - align: right
+    - alt: HTML5
       desc: |-
         Finish a lot of HTML game projects. <br/>
         Most are moderate or heavy of game.
       image: assets/img/timeline/3.png
       title: HTML5 Game Development Engineer
       year: 2015-2018
-    - desc: |-
+    - alt: Meaningful
+      desc: |-
         Do something meaningful<br/>
         Work hard...
       image: assets/img/timeline/4.jpg

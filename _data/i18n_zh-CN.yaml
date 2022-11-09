@@ -190,17 +190,19 @@ team:
   text: Lorem ipsum dolor sit amet consectetur.
   title: 我们的团队
 timeline:
-  align: right
+  align: left
   events:
-    - desc: 就读于**华南师范大学**，专业为**软件工程**。
+    - alt: SCNU
+      desc: 就读于**华南师范大学**，专业为**软件工程**。
       image: assets/img/timeline/0.png
       title: 我的大学生活
       year: 2006-2010
-    - desc: 2010年7月大学毕业，开始了职业生涯。
+    - alt: 毕业
+      desc: 2010年7月大学毕业，开始了职业生涯。
       image: assets/img/timeline/1.png
       title: 毕业
       year: 2010年7月
-    - alt: Aola
+    - alt: 奥拉星
       desc: |-
         就职于**广州百田信息科技有限公司**。<br/>
         作为一名游戏开发工程师，服务于**奥拉星项目组**。<br/>
@@ -208,14 +210,15 @@ timeline:
       image: assets/img/timeline/2.jpg
       title: 游戏开发工程师
       year: 2010-2015
-    - align: right
+    - alt: HTML5
       desc: |-
         做了不少HTML游戏项目。<br/>
         以中度和重度为主。
       image: assets/img/timeline/3.png
       title: HTML5 游戏开发主程序
       year: 2015-2018
-    - desc: |-
+    - alt: 意义
+      desc: |-
         做些有意义的事件<br/>
         摸爬滚打中……
       image: assets/img/timeline/4.jpg
