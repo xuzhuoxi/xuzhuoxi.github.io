@@ -233,6 +233,13 @@ timeline:
       image: assets/img/timeline/3.png
       title: HTML5 Game Development Engineer
       year: 2015-2018
+    - align: right
+      desc: |-
+        Do something meaningful. <br/>
+        Work hard...
+      image: assets/img/timeline/4.jpg
+      title: Unity Game Development Engineer
+      year: 2018-Now
   text: ''
   title: Timeline
 title: Happy Living

@@ -211,10 +211,17 @@ timeline:
     - align: right
       desc: |-
         做了不少HTML游戏项目。<br/>
-        以中度重度为主。
+        以中度和重度为主。
       image: assets/img/timeline/3.png
       title: HTML5游戏开发主程序
       year: 2015-2018
+    - align: right
+      desc: |-
+        做一些有意义的事件。<br/>
+        摸爬滚打……
+      image: assets/img/timeline/4.jpg
+      title: Unity 游戏开发主程序
+      year: 2018-现在
   text: ''
   title: 经历
 title: 快乐生活
