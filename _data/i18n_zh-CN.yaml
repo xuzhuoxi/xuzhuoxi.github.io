@@ -193,25 +193,28 @@ timeline:
   end: 成为我们<br/>故事的<br/>一部分！
   events:
     - desc: 就读于**华南师范大学**，专业为**软件工程**。
-      image: assets/img/timeline/1.png
+      image: assets/img/timeline/0.png
       title: 我的大学生活
       year: 2006-2010
     - desc: 2010年7月大学毕业，开始了职业生涯。
-      image: assets/img/timeline/2.png
+      image: assets/img/timeline/1.png
       title: 毕业
       year: 2010年7月
     - alt: Aola
       desc: |-
-        就职于**广州百田信息科技有限公司**，**奥拉星项目组**游戏开发工程师。
+        就职于**广州百田信息科技有限公司**。<br/>
+        作为一名游戏开发工程师，服务于**奥拉星项目组**。<br/>
         是我巩固技术基础的重要一段时间。
-      image: assets/img/timeline/3.jpg
+      image: assets/img/timeline/2.jpg
       title: 游戏开发工程师
       year: 2010-2015
     - align: right
-      desc: 您在此处的描述，**Markdown** 完全支持。
-      image: assets/img/timeline/4.jpg
-      title: 标题
-      year: 2015-
-  text: Lorem ipsum 成长线
+      desc: |-
+        做了不少HTML游戏项目。<br/>
+        以中度重度为主。
+      image: assets/img/timeline/3.jpg
+      title: HTML5游戏开发主程序
+      year: 2015-2018
+  text: ''
   title: 经历
 title: 快乐生活
