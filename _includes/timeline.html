@@ -11,30 +11,18 @@
     <div class="row">
         <div class="col-lg-12">
             <ul class="timeline">
-                {%- assign align = i18ntext.timeline.start_align -%}			
-				{%- assign events = i18ntext.timeline.events | reverse -%}
-                {%- for event in events -%}
-				
+			{%- assign align = i18ntext.timeline.start_align | default: "left" -%}
+ 				
+			{%- assign events = i18ntext.timeline.events | reverse -%}
+            {%- for event in events -%}
 				{%- if event.align -%}
 				{%- assign align = event.align -%}
 				{%- endif -%}
 				
                 {%- if align == "right" -%}
-                    {%- if event.align and event.align == "left" -%}
-                        {%- assign align = "right" -%}
-                        <li>
-                    {%- else -%}
-                        {%- assign align = "left" %}
-                        <li class="timeline-inverted">
-                    {% endif %}
+                    <li class="timeline-inverted">
                 {% else %}
-                    {%- if event.align and event.align == "right" -%}
-                        {%- assign align = "left" -%}
-                        <li class="timeline-inverted">
-                    {%- else -%}
-                        {%- assign align = "right" %}
-                        <li>
-                    {% endif %}
+                    <li>
                 {%- endif -%}
                     <div class="timeline-image">
                         <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
@@ -49,7 +37,12 @@
                         </div>
                     </div>
                 </li>
-                {% endfor %}
+				{%- if align == "right" -%}
+					{%- assign align = "left" %}
+				{%- else -%}
+					{%- assign align = "right" %}
+				{%- endif -%}
+            {% endfor %}
             </ul>
         </div>
     </div>
