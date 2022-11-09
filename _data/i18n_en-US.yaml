@@ -238,7 +238,7 @@ timeline:
       image: assets/img/timeline/4.jpg
       title: Unity Game Development Engineer
       year: 2018-Now
-  start_align: right
+  start_align: left
   text: ''
   title: Timeline
 title: Happy Living
