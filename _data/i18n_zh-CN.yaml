@@ -215,10 +215,9 @@ timeline:
       image: assets/img/timeline/3.png
       title: HTML5游戏开发主程序
       year: 2015-2018
-    - align: right
-      desc: |-
+    - desc: |-
         做一些有意义的事件。<br/>
-        摸爬滚打……
+        摸爬滚打中……
       image: assets/img/timeline/4.jpg
       title: Unity 游戏开发主程序
       year: 2018-现在
