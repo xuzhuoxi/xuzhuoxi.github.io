@@ -14,6 +14,11 @@
                 {%- assign align = i18ntext.timeline.start_align -%}			
 				{%- assign events = i18ntext.timeline.events | reverse -%}
                 {%- for event in events -%}
+				
+				{%- if event.align -%}
+				{%- assign align = event.align -%}
+				{%- endif -%}
+				
                 {%- if align == "right" -%}
                     {%- if event.align and event.align == "left" -%}
                         {%- assign align = "right" -%}
