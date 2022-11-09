@@ -190,6 +190,7 @@ team:
   text: Lorem ipsum dolor sit amet consectetur.
   title: 我们的团队
 timeline:
+  align: right
   events:
     - desc: 就读于**华南师范大学**，专业为**软件工程**。
       image: assets/img/timeline/0.png
@@ -220,7 +221,6 @@ timeline:
       image: assets/img/timeline/4.jpg
       title: Unity 游戏开发主程序
       year: 2018-现在
-  start_align: right
   text: ''
   title: 经历
 title: 快乐生活

@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-lg-12">
             <ul class="timeline">
-			{%- assign align = i18ntext.timeline.start_align | default: "left" -%}
+			{%- assign align = i18ntext.timeline.align | default: "left" -%}
  				
 			{%- assign events = i18ntext.timeline.events | reverse -%}
             {%- for event in events -%}
