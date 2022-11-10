@@ -50,7 +50,7 @@ navigation:
     nav_on: 'yes'
     page: services.html
     section: service
-    title: 服务
+    title: 目标
   - board_on: 'yes'
     nav_on: 'yes'
     page: portfolio.html
@@ -78,7 +78,7 @@ navigation:
     nav_on: 'yes'
     page: contact.html
     section: contact
-    title: 联系我们
+    title: 联系我
   - board_on: 'no'
     nav_on: 'no'
     title: 源代码
@@ -141,17 +141,19 @@ portfolio:
   title: 工具
 services:
   list:
-    - desc: 对客户来说，注意脂肪处理过程非常重要。 最小的，最重要的是，阻碍了从伟大的工程师那里发现这些东西的工程师。
-      icon: fas fa-shopping-cart
-      title: 游戏
-    - desc: 对客户来说，注意脂肪处理过程非常重要。 最小的，最重要的是，阻碍了从伟大的工程师那里发现这些东西的工程师。
-      icon: fas fa-laptop
-      title: 响应式设计
-    - desc: 您在此处的描述，完整的 **Markdown** 支持
-      icon: fab fa-markdown
-      title: '[Markdown](https://en.wikipedia.org/wiki/Markdown)'
+    - desc: |-
+        一个良好的架构设计对于一个游戏项目来讲，至关重要！<br/>
+        结构清晰，逻辑缜密的工程可以为团队节省大量时间成本。
+      icon: fal fa-project-diagram
+      title: 架构设计
+    - desc: 工具的使用，可以减少重复工作带来的时间消耗，还能保证正确率。
+      icon: far fa-tools
+      title: 工具研发
+    - desc: 无论是架构设计还是工具的使用，最终的目标都是为了团队能更好地完成项目。
+      icon: fal fa-thumbs-up
+      title: 团队效率
   text: Lorem ipsum
-  title: 服务
+  title: 目标
 team:
   people:
     - image: assets/img/team/500x500.jpg

@@ -53,7 +53,7 @@ navigation:
     nav_on: 'yes'
     page: services.html
     section: service
-    title: Services
+    title: Goals
   - board_on: 'yes'
     nav_on: 'yes'
     page: portfolio.html
@@ -155,20 +155,24 @@ portfolio:
 services:
   list:
     - desc: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime
-        quam architecto quo inventore harum ex magni, dicta impedit.
-      icon: fas fa-shopping-cart
-      title: Game
+        A good architectural design is very important for a game project!<br/> 
+
+        A well-structured and logical project can save the team a lot of time
+        and cost.
+      icon: fal fa-project-diagram
+      title: Architecture Design
     - desc: >-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime
-        quam architecto quo inventore harum ex magni, dicta impedit.
-      icon: fas fa-laptop
-      title: Responsive Design
-    - desc: 'Your description here, full **Markdown** support'
-      icon: fab fa-markdown
-      title: '[Markdown](https://en.wikipedia.org/wiki/Markdown)'
+        Tools can reduce the time consumption caused by repetitive work and
+        ensure the correct rate.
+      icon: far fa-tools
+      title: Tool Development
+    - desc: >-
+        Whether it is architectural design or the use of tools, the ultimate
+        goal is for the team to complete the project better.
+      icon: fal fa-thumbs-up
+      title: Team Efficiency
   text: Lorem ipsum
-  title: Services
+  title: Goals
 team:
   people:
     - image: assets/img/team/500x500.jpg
