@@ -142,9 +142,9 @@ portfolio:
 services:
   list:
     - desc: |-
-        一个良好的架构设计对于一个游戏项目来讲，至关重要！<br/>
+        良好的架构设计对于一个游戏项目来说，至关重要！<br/>
         结构清晰，逻辑缜密的工程可以为团队节省大量时间成本。
-      icon: far fa-project-diagram
+      icon: fas fa-pencil-ruler
       title: 架构设计
     - desc: 工具的使用，可以减少重复工作带来的时间消耗，还能保证正确率。
       icon: fas fa-tools

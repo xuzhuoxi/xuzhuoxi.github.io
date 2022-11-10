@@ -159,7 +159,7 @@ services:
 
         A well-structured and logical project can save the team a lot of time
         and cost.
-      icon: far fa-project-diagram
+      icon: fas fa-pencil-ruler
       title: Architecture Design
     - desc: >-
         Tools can reduce the time consumption caused by repetitive work and
