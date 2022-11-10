@@ -1,3 +1,5 @@
+ability:
+  - title: ''
 about:
   body: |-
     对于我来讲，开发是一件有趣的事。电脑通上电，就能把一个想法变成一个实实在在的作品。<br/>
@@ -74,6 +76,9 @@ navigation:
   - board_on: 'no'
     nav_on: 'no'
     page: clients.html
+  - board_on: 'yes'
+    nav_on: 'no'
+    page: skills.html
   - board_on: 'yes'
     nav_on: 'yes'
     page: contact.html

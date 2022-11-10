@@ -1,3 +1,5 @@
+ability:
+  - title: ''
 about:
   body: >-
     For me, development is interesting. When the computer is powered on, it can
@@ -77,6 +79,9 @@ navigation:
   - board_on: 'no'
     nav_on: 'no'
     page: clients.html
+  - board_on: 'yes'
+    nav_on: 'no'
+    page: skills.html
   - board_on: 'yes'
     nav_on: 'yes'
     page: contact.html
