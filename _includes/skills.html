@@ -1,15 +1,9 @@
 <div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-center" id="i18_skills">
-            <div class="navy-line"></div>
-            <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
-        </div>
-    </div>
-    <div class="row features-block">
-        <div class="wow zoomIn col-lg-6 col-lg-offset-3">
+    <div class="">
+        <div class="">
             <canvas id="{{ site.data.skills.id }}" height="{{ site.data.skills.height }}" width="{{ site.data.skills.width }}"></canvas>
         </div>
-        <div class="col-lg-1"></div>
+		<script src="assets/js/chart.js"></script>
         <script>
         var ctx = document.getElementById("{{ site.data.skills.id }}");
         var data = {
@@ -25,8 +19,8 @@
                 data: [{{ site.data.skills.percentage }}]
                 }]
         };
-        var myRadarChart = new Chart(ctx, {
-            type: 'radar',
+		var config = {
+		    type: 'radar',
             data: data,
             options: {
                 scale: {
@@ -37,7 +31,8 @@
                 },
                 legend: {display: false},
             }
-        });
+		}
+        var myRadarChart = new Chart(ctx, config);
         </script>
     </div>
 </div>
