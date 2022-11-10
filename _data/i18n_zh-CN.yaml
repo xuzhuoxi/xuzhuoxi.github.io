@@ -152,7 +152,7 @@ services:
     - desc: 无论是架构设计还是工具的使用，最终的目标都是为了团队能更好地完成项目。
       icon: far fa-thumbs-up
       title: 团队效率
-  text: Lorem ipsum
+  text: 目标明确，少走弯路！
   title: 目标
 team:
   people:

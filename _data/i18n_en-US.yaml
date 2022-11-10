@@ -171,7 +171,7 @@ services:
         goal is for the team to complete the project better.
       icon: far fa-thumbs-up
       title: Team Efficiency
-  text: Lorem ipsum
+  text: Clear goals and avoid detours!
   title: Goals
 team:
   people:
