@@ -144,13 +144,13 @@ services:
     - desc: |-
         一个良好的架构设计对于一个游戏项目来讲，至关重要！<br/>
         结构清晰，逻辑缜密的工程可以为团队节省大量时间成本。
-      icon: fal fa-project-diagram
+      icon: far fa-project-diagram
       title: 架构设计
     - desc: 工具的使用，可以减少重复工作带来的时间消耗，还能保证正确率。
-      icon: far fa-tools
+      icon: fas fa-tools
       title: 工具研发
     - desc: 无论是架构设计还是工具的使用，最终的目标都是为了团队能更好地完成项目。
-      icon: fal fa-thumbs-up
+      icon: far fa-thumbs-up
       title: 团队效率
   text: Lorem ipsum
   title: 目标

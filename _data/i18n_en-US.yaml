@@ -159,17 +159,17 @@ services:
 
         A well-structured and logical project can save the team a lot of time
         and cost.
-      icon: fal fa-project-diagram
+      icon: far fa-project-diagram
       title: Architecture Design
     - desc: >-
         Tools can reduce the time consumption caused by repetitive work and
         ensure the correct rate.
-      icon: far fa-tools
+      icon: fas fa-tools
       title: Tool Development
     - desc: >-
         Whether it is architectural design or the use of tools, the ultimate
         goal is for the team to complete the project better.
-      icon: fal fa-thumbs-up
+      icon: far fa-thumbs-up
       title: Team Efficiency
   text: Lorem ipsum
   title: Goals
