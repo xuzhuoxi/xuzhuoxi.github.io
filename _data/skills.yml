@@ -1,8 +1,8 @@
 # Ability
 
 id : cs
-width: 500
-height: 500
+width: 400
+height: 400
 
 ability:
   - title: GitHub
