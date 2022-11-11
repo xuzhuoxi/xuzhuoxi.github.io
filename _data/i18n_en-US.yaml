@@ -86,7 +86,7 @@ navigation:
     page: skills.html
     section: skills
   - board_on: 'yes'
-    class: bg-light page-section
+    class: page-section
     nav_on: 'yes'
     page: contact.html
     section: contact
