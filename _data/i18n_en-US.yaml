@@ -52,21 +52,25 @@ header:
   title: 'Welcome '
 navigation:
   - board_on: 'yes'
+    class: page-section
     nav_on: 'yes'
     page: services.html
     section: service
     title: Goals
   - board_on: 'yes'
+    class: bg-light page-section
     nav_on: 'yes'
     page: portfolio.html
     section: portfolio
     title: Tools
   - board_on: 'yes'
+    class: page-section
     nav_on: 'yes'
     page: about.html
     section: about
     title: About
   - board_on: 'yes'
+    class: bg-light page-section
     nav_on: 'yes'
     page: timeline.html
     section: timeline
@@ -76,17 +80,19 @@ navigation:
     page: team.html
     section: team
     title: Team
-  - board_on: 'no'
-    nav_on: 'no'
-    page: clients.html
   - board_on: 'yes'
+    class: page-section
     nav_on: 'no'
     page: skills.html
   - board_on: 'yes'
+    class: bg-light page-section
     nav_on: 'yes'
     page: contact.html
     section: contact
     title: Contact
+  - board_on: 'no'
+    nav_on: 'no'
+    page: clients.html
   - board_on: 'no'
     nav_on: 'no'
     title: Theme Source

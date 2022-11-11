@@ -7,6 +7,6 @@ layout: default
 {% for item in i18ntext.navigation %}
   {%- if item.board_on == 'no' -%}{%- continue -%}{%- endif -%}
   {% if item.page %}
-    {% include {{item.page}} section=item.section %}
+    {% include {{item.page}} section=item.section class=item.class %}
   {% endif %}
 {% endfor %}

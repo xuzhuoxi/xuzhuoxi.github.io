@@ -49,21 +49,25 @@ header:
   title: 欢迎
 navigation:
   - board_on: 'yes'
+    class: page-section
     nav_on: 'yes'
     page: services.html
     section: service
     title: 目标
   - board_on: 'yes'
+    class: bg-light page-section
     nav_on: 'yes'
     page: portfolio.html
     section: portfolio
     title: 工具
   - board_on: 'yes'
+    class: page-section
     nav_on: 'yes'
     page: about.html
     section: about
     title: 关于
   - board_on: 'yes'
+    class: bg-light page-section
     nav_on: 'yes'
     page: timeline.html
     section: timeline
@@ -73,17 +77,19 @@ navigation:
     page: team.html
     section: team
     title: 团队
-  - board_on: 'no'
-    nav_on: 'no'
-    page: clients.html
   - board_on: 'yes'
+    class: page-section
     nav_on: 'no'
     page: skills.html
   - board_on: 'yes'
+    class: bg-light page-section
     nav_on: 'yes'
     page: contact.html
     section: contact
     title: 联系我
+  - board_on: 'no'
+    nav_on: 'no'
+    page: clients.html
   - board_on: 'no'
     nav_on: 'no'
     title: 源代码
