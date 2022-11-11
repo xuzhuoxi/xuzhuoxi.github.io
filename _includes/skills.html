@@ -10,40 +10,8 @@
         <div class="row justify-content-md-center">
             <!--<div class="wow zoomIn col-lg-6 col-lg-offset-3">-->
             <div class="col col-lg-2"></div>
-            <div class="col-md-auto">
-                <canvas id="{{ site.data.skills.canvasid }}" width="400" height="400" ></canvas>
-            </div>
+			{%- include skills_chart.html data=site.data.skills.list[0] -%}
             <div class="col col-lg-2"></div>
-            <script>
-            var ctx = document.getElementById("{{ site.data.skills.canvasid }}");
-            var data = {
-                labels: "{{ site.data.skills.aspects }}".split(","),
-                datasets: [{
-                    label: "{{ site.data.skills.label }}",
-                    backgroundColor: "rgba(179,181,198,0.2)",
-                    borderColor: "#3385FF",
-                    pointBackgroundColor: "#3385FF",
-                    pointBorderColor: "#fff",
-                    pointHoverBackgroundColor: "#3385FF",
-                    pointHoverBorderColor: "#3385FF",
-                    data: [{{ site.data.skills.percentage }}]
-                    }]
-            };
-            var config = {
-                type: 'radar',
-                data: data,
-                options: {
-                    scale: {
-                        responsive: true,
-                        ticks: {min: 0, max: 100},
-                        lineArc: false,
-                        pointLabels: {fontSize: 14},
-                    },
-                    legend: {display: false},
-                }
-            }
-            var myRadarChart = new Chart(ctx, config);
-            </script>
         </div>
     </div>
 </section>

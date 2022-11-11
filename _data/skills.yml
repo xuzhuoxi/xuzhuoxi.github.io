@@ -1,26 +1,13 @@
-# Ability
+# Skill
 
-canvasid : cs
-
-ability:
-  - title: GitHub
-    value: 100
-  - title: Motivation
-    value: 35
-  - title: HTML5
-    value: 65
-  - title: ReactJS
-    value: 80
-  - title: Machine
-    value: 70
-  - title: Learing
-    value: 90
-  - title: Python
-    value: 90
-  - title: Sleeping
-    value: 50
-    
-    
-label: Ability
-aspects: GitHub, Motivation, HTML5, ReactJS, Machine Learing, Python, Sleeping
-percentage: 100, 35, 65, 80, 70, 90, 50
+list:
+  - canvasid : cs1
+    class: 'col-md-auto'
+    label: Ability
+    aspects: GitHub, Motivation, HTML5, ReactJS, Machine Learing, Python, Sleeping
+    percentage: 100, 35, 65, 80, 70, 90, 50
+  - canvasid : cs
+    class: 'col-md-auto'
+    label: Ability
+    aspects: GitHub, Motivation, HTML5, ReactJS, Machine Learing, Python, Sleeping
+    percentage: 100, 35, 65, 80, 70, 90, 50

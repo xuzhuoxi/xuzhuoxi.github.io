@@ -1,0 +1,35 @@
+<!-- Skill Chart -->
+{%- assign data = include.data -%}
+<div class="{{data.class}}">
+	<canvas id="{{ site.data.skills.canvasid }}" width="400" height="400" ></canvas>
+</div>
+<script>
+var ctx = document.getElementById("{{ data.canvasid }}");
+var data = {
+	labels: "{{ data.aspects }}".split(","),
+	datasets: [{
+		label: "{{ data.label }}",
+		backgroundColor: "rgba(179,181,198,0.2)",
+		borderColor: "#3385FF",
+		pointBackgroundColor: "#3385FF",
+		pointBorderColor: "#fff",
+		pointHoverBackgroundColor: "#3385FF",
+		pointHoverBorderColor: "#3385FF",
+		data: [{{ data.percentage }}]
+		}]
+};
+var config = {
+	type: 'radar',
+	data: data,
+	options: {
+		scale: {
+			responsive: true,
+			ticks: {min: 0, max: 100},
+			lineArc: false,
+			pointLabels: {fontSize: 14},
+		},
+		legend: {display: false},
+	}
+}
+var myRadarChart = new Chart(ctx, config);
+</script>
