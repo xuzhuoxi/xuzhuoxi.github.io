@@ -7,14 +7,13 @@
                 <h3 class="section-subheading text-muted">{{ i18ntext.skills.text | default: "" }}</h3>
             </div>
         </div>
-        <div class="row features-block">
+        <div class="row justify-content-md-center">
             <!--<div class="wow zoomIn col-lg-6 col-lg-offset-3">-->
-            <div class="col-lg-6">
+            <div class="col col-lg-2"></div>
+            <div class="col-md-auto">
                 <canvas id="{{ site.data.skills.canvasid }}" width="400" height="400" ></canvas>
-                <canvas id="cs2" width="400" height="400" ></canvas>
-                <canvas id="cs3" width="400" height="400" ></canvas>
-                <canvas id="cs4" width="400" height="400" ></canvas>
             </div>
+            <div class="col col-lg-2"></div>
             <script>
             var ctx = document.getElementById("{{ site.data.skills.canvasid }}");
             var data = {
@@ -44,9 +43,6 @@
                 }
             }
             var myRadarChart = new Chart(ctx, config);
-            var myRadarChart = new Chart(document.getElementById("cs2"), config);
-            var myRadarChart = new Chart(document.getElementById("cs3"), config);
-            var myRadarChart = new Chart(document.getElementById("cs4"), config);
             </script>
         </div>
     </div>
