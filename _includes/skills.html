@@ -11,6 +11,9 @@
             <!--<div class="wow zoomIn col-lg-6 col-lg-offset-3">-->
             <div class="">
                 <canvas id="{{ site.data.skills.canvasid }}" width="400" height="400" ></canvas>
+                <canvas id="cs2" width="400" height="400" ></canvas>
+                <canvas id="cs3" width="400" height="400" ></canvas>
+                <canvas id="cs4" width="400" height="400" ></canvas>
             </div>
             <script>
             var ctx = document.getElementById("{{ site.data.skills.canvasid }}");
@@ -41,6 +44,9 @@
                 }
             }
             var myRadarChart = new Chart(ctx, config);
+            var myRadarChart = new Chart(document.getElementById("cs2"), config);
+            var myRadarChart = new Chart(document.getElementById("cs3"), config);
+            var myRadarChart = new Chart(document.getElementById("cs4"), config);
             </script>
         </div>
     </div>
