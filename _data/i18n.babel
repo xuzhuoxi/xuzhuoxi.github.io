@@ -20,32 +20,6 @@
 				<name>main</name>
 				<children>
 					<folder_node>
-						<name>ability</name>
-						<children>
-							<folder_node>
-								<name>0</name>
-								<children>
-									<concept_node>
-										<name>title</name>
-										<description/>
-										<comment/>
-										<default_text/>
-										<translations>
-											<translation>
-												<language>en-US</language>
-												<approved>false</approved>
-											</translation>
-											<translation>
-												<language>zh-CN</language>
-												<approved>false</approved>
-											</translation>
-										</translations>
-									</concept_node>
-								</children>
-							</folder_node>
-						</children>
-					</folder_node>
-					<folder_node>
 						<name>about</name>
 						<children>
 							<concept_node>
@@ -2573,6 +2547,64 @@
 											</concept_node>
 										</children>
 									</folder_node>
+								</children>
+							</folder_node>
+							<concept_node>
+								<name>text</name>
+								<description/>
+								<comment/>
+								<default_text/>
+								<translations>
+									<translation>
+										<language>en-US</language>
+										<approved>false</approved>
+									</translation>
+									<translation>
+										<language>zh-CN</language>
+										<approved>false</approved>
+									</translation>
+								</translations>
+							</concept_node>
+							<concept_node>
+								<name>title</name>
+								<description/>
+								<comment/>
+								<default_text/>
+								<translations>
+									<translation>
+										<language>en-US</language>
+										<approved>false</approved>
+									</translation>
+									<translation>
+										<language>zh-CN</language>
+										<approved>false</approved>
+									</translation>
+								</translations>
+							</concept_node>
+						</children>
+					</folder_node>
+					<folder_node>
+						<name>skills</name>
+						<children>
+							<folder_node>
+								<name>0</name>
+								<children>
+									<concept_node>
+										<name>title</name>
+										<description/>
+										<comment/>
+										<default_text/>
+										<translations>
+											<translation>
+												<language>en-US</language>
+												<approved>false</approved>
+											</translation>
+											<translation>
+												<language>zh-CN</language>
+												<approved>false</approved>
+											</translation>
+										</translations>
+									</concept_node>
 								</children>
 							</folder_node>
 							<concept_node>

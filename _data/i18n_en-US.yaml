@@ -1,5 +1,3 @@
-ability:
-  - title: ''
 about:
   body: >-
     For me, development is interesting. When the computer is powered on, it can
@@ -185,6 +183,11 @@ services:
       title: Team Efficiency
   text: Clear goals and avoid detours!
   title: Goals
+skills:
+  '0':
+    title: ''
+  text: Skills do not overwhelm your body!
+  title: Skills
 team:
   people:
     - image: assets/img/team/500x500.jpg

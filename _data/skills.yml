@@ -1,8 +1,6 @@
 # Ability
 
-id : cs
-width: 400
-height: 400
+canvasid : cs
 
 ability:
   - title: GitHub

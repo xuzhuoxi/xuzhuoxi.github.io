@@ -2,19 +2,19 @@
 <section class="{{include.class}}" id="{{ include.section | default: "skills" }}">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center" id="i18_skills">
-                <div class="navy-line"></div>
-                <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">{{ i18ntext.skills.title | default: "Skills" }}</h2>
+                <h3 class="section-subheading text-muted">{{ i18ntext.skills.text | default: "" }}</h3>
             </div>
         </div>
-        <div class="row features-block">
+        <div class="row">
             <div class="wow zoomIn col-lg-6 col-lg-offset-3">
-                <canvas id="{{ site.data.skills.id }}" height="{{ site.data.skills.height }}" width="{{ site.data.skills.width }}"></canvas>
+                <canvas id="{{ site.data.skills.canvasid }}" width="400" height="400" ></canvas>
             </div>
             <div class="col-lg-1"></div>
             
             <script>
-            var ctx = document.getElementById("{{ site.data.skills.id }}");
+            var ctx = document.getElementById("{{ site.data.skills.canvasid }}");
             var data = {
                 labels: "{{ site.data.skills.aspects }}".split(","),
                 datasets: [{
