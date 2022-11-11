@@ -3,11 +3,11 @@
 list:
   - canvasid : cs1
     class: 'col-md-auto'
-    label: Ability
-    aspects: GitHub, Motivation, HTML5, ReactJS, Machine Learing, Python, Sleeping
-    percentage: 100, 35, 65, 80, 70, 90, 50
+    label: Languages
+    aspects: Go,AS3,TypeScript,C#,Java,Swift,Lua
+    percentage: 88, 80, 83, 85, 80, 70, 75
   - canvasid : cs2
     class: 'col-md-auto'
-    label: Ability
-    aspects: GitHub, Motivation, HTML5, ReactJS, Machine Learing, Python, Sleeping
-    percentage: 100, 35, 65, 80, 70, 90, 50
+    label: Engines
+    aspects: Unity,Egret,Cocos Creator,Flash,SpriteKit,UIKit,Jekyll
+    percentage: 85, 80, 82, 80, 75, 75, 80

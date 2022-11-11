@@ -10,8 +10,8 @@
         <div class="row justify-content-md-center">
             <!--<div class="wow zoomIn col-lg-6 col-lg-offset-3">-->
             <div class="col col-lg-2"></div>
-			{%- assign skilldata = site.data.skills.list[0]-%}
-			{%- include skills_chart.html data=skilldata -%}
+			{%- assign skill = site.data.skills.list[0]-%}
+			{%- include skills_chart.html skill=skill -%}
             <div class="col col-lg-2"></div>
         </div>
     </div>
