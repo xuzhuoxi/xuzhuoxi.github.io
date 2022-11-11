@@ -80,9 +80,10 @@ navigation:
     title: Team
   - board_on: 'yes'
     class: page-section
-    nav_on: 'no'
+    nav_on: 'yes'
     page: skills.html
     section: skills
+    title: Skills
   - board_on: 'yes'
     class: page-section
     nav_on: 'yes'
