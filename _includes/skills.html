@@ -1,5 +1,5 @@
 <!-- Skill -->
-<section class="{{include.class}}" id="{{ include.section | default: "about" }}">
+<section class="{{include.class}}" id="{{ include.section | default: "skills" }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center" id="i18_skills">
@@ -12,8 +12,6 @@
                 <canvas id="{{ site.data.skills.id }}" height="{{ site.data.skills.height }}" width="{{ site.data.skills.width }}"></canvas>
             </div>
             <div class="col-lg-1"></div>
-            
-            <!--<script src="assets/js/chart.min.js"></script>-->
             
             <script>
             var ctx = document.getElementById("{{ site.data.skills.id }}");

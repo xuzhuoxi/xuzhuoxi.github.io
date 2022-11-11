@@ -84,6 +84,7 @@ navigation:
     class: page-section
     nav_on: 'no'
     page: skills.html
+    section: skills
   - board_on: 'yes'
     class: bg-light page-section
     nav_on: 'yes'
