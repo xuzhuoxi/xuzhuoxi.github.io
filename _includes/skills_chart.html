@@ -28,7 +28,10 @@ var config = {
 			lineArc: false,
 			pointLabels: {fontSize: 14},
 		},
-		legend: {display: false},
+		legend: {
+			display: false,
+			selectedMode: false
+		},
 	}
 }
 var myRadarChart = new Chart(ctx, config);
