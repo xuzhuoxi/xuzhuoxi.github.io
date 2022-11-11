@@ -1,7 +1,7 @@
 <!-- Skill Chart -->
 {%- assign skill = include.skill -%}
 <div class="{{skill.class}}">
-	<canvas id="{{ skill.canvasid }}" width="400" height="400" ></canvas>
+	<canvas id="{{ skill.canvasid }}" width="500" height="500" ></canvas>
 </div>
 <script>
 var ctx = document.getElementById("{{ skill.canvasid }}");
@@ -24,13 +24,12 @@ var config = {
 	options: {
 		scale: {
 			responsive: true,
-			ticks: {min: 0, max: 100},
+			ticks: {beginAtZero: true, min: 0, max: 100},
 			lineArc: false,
-			pointLabels: {fontSize: 14},
+			pointLabels: {fontSize: 16},
 		},
 		legend: {
-			display: false,
-			selectedMode: false
+			display: false
 		},
 	}
 }
