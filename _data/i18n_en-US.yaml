@@ -78,9 +78,9 @@ navigation:
     page: team.html
     section: team
     title: Team
-  - board_on: 'no'
+  - board_on: 'yes'
     class: page-section
-    nav_on: 'no'
+    nav_on: 'yes'
     page: skills.html
     section: skills
     title: Skills
