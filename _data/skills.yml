@@ -18,8 +18,8 @@ list:
     aspects: Unity,Egret,Cocos Creator,Flash,SpriteKit,UIKit,Jekyll
     percentage: 85, 80, 82, 80, 75, 75, 80
     backgroundColor: 'rgba(179,181,198,0.2)'
-    borderColor: '#5470c6'
-    pointBackgroundColor: '#5470c6'
+    borderColor: '#fac858'
+    pointBackgroundColor: '#fac858'
     pointBorderColor: '#f0f'
-    pointHoverBackgroundColor: '#5470c6'
-    pointHoverBorderColor: '#5470c6'
+    pointHoverBackgroundColor: '#fac858'
+    pointHoverBorderColor: '#fac858'
