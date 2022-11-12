@@ -22,8 +22,11 @@ var config = {
 	type: 'radar',
 	data: data,
 	options: {
-		scale: {
-			responsive: true,
+		scales: {
+			beginAtZero: true,
+			min: 0,
+			max: 100,
+			responsive: false,
 			ticks: {beginAtZero: true, min: 0, max: 100},
 			lineArc: false,
 			pointLabels: {fontSize: 16},
