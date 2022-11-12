@@ -75,9 +75,9 @@ navigation:
     page: team.html
     section: team
     title: 团队
-  - board_on: 'yes'
+  - board_on: 'no'
     class: page-section
-    nav_on: 'yes'
+    nav_on: 'no'
     page: skills.html
     section: skills
     title: 技能
