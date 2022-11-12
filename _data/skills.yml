@@ -15,8 +15,8 @@ list:
   - canvasid : cs2
     class: 'col-md-auto'
     label: Engines
-    aspects: Unity,Egret,Cocos Creator,Flash,SpriteKit,UIKit,Jekyll
-    percentage: 85, 80, 82, 80, 75, 75, 80
+    aspects: Unity,Egret,Cocos Creator,Flash,SpriteKit,Jekyll
+    percentage: 85, 80, 82, 80, 75, 80
     backgroundColor: 'rgba(179,181,198,0.2)'
     borderColor: '#fc8452'
     pointBackgroundColor: '#fc8452'
