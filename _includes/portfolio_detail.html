@@ -2,7 +2,8 @@
 {%- include i18ntext.html -%}
 {%- assign data = include.data -%}
 {%- assign forindex = include.index -%}
-{%- assign i18ndata = i18ntext.portfolio.list | where: "itemid", data.itemid | where: "lang", page.lang | first -%}
+{%- assign langList = i18ntext.portfolio.list | where: "lang", page.lang -%}
+{%- assign i18ndata = langList | where: "itemid", data.itemid | first -%}
 <div class="portfolio-modal modal fade" id="p{{ forindex }}"
      tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
