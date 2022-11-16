@@ -1,6 +1,7 @@
 ---
 itemid: id02
 num: pro02
+lang: zh-CN
 ---
 Use this area to describe your project. **Markdown** supported.
 
