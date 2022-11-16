@@ -1,5 +1,6 @@
 <!-- Portfolio -->
 {%- include i18ntext.html -%}
+{%- assign mdlist = site.portfolio | where: "lang", page.lang -%}
 <section class="{{include.class}}" id="{{ include.section | default: "portfolio" }}">
     <div class="container">
         <div class="row">
@@ -9,13 +10,13 @@
             </div>
         </div>
         <div class="row">
-            {% for project in site.portfolio %}
+            {% for project in mdlist %}
             {% include portfolio_grid.html index=forloop.index data=project %}
             {% endfor %}
         </div>
     </div>
 </section>
 
-{% for project in site.portfolio %}
-{% include portfolio_detail.html index=forloop.index data=project %}
+{% for md in mdlist %}
+{% include portfolio_detail.html index=forloop.index md=md %}
 {% endfor %}

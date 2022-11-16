@@ -1,9 +1,8 @@
 <!-- Portfolio Detail -->
 {%- include i18ntext.html -%}
-{%- assign data = include.data -%}
+{%- assign md = include.md -%}
 {%- assign forindex = include.index -%}
-{%- assign langList = i18ntext.portfolio.list | where: "lang", page.lang -%}
-{%- assign i18ndata = langList | where: "itemid", data.itemid | first -%}
+{%- assign i18ndata = i18ntext.portfolio.list | where: "itemid", md.itemid | first -%}
 <div class="portfolio-modal modal fade" id="p{{ forindex }}"
      tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -22,7 +21,7 @@
                             <p class="item-intro text-muted">{{ i18ndata.subtitle | markdownify }}</p>
                             <img class="img-fluid d-block mx-auto"
                                  src="{{ i18ndata.image }}" alt="{{ i18ndata.alt }}"/>
-                            <p>{{ data.content }}</p>
+                            <p>{{ md.content }}</p>
                             <button class="btn btn-primary"
                                     data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
