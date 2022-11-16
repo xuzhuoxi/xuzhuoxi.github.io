@@ -4,10 +4,9 @@ num: pro06
 lang: en-US
 ---
 
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+ImageSplitter is mainly used to split images into multiple small images.  
 
 {:.list-inline}
 
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
++ Version: 1.0.1  
++ Author: XUZHUOXI   

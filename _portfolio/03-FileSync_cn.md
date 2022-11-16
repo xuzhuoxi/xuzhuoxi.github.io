@@ -4,10 +4,10 @@ num: pro03
 lang: zh-CN
 ---
 
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+文件同步工具  
+可用于固定或有规律的文件复制、删除、移动功能，以及文件夹单向或双向同步。  
 
 {:.list-inline}
 
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
++ 版本：1.0.5   
++ 作者： XUZHUOXI   

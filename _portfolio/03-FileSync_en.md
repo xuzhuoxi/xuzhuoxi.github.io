@@ -4,10 +4,10 @@ num: pro03
 lang: en-US
 ---
 
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+File synchronization tool.  
+Can be used for fixed or regular file copy, delete, move functions, and one-way or two-way synchronization of folders.  
 
 {:.list-inline}
 
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
++ Version: 1.0.5   
++ Author: XUZHUOXI  

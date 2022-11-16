@@ -4,10 +4,9 @@ num: pro07
 lang: zh-CN
 ---
 
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+ImageClearer 可用于清理目录中像素符合条件的图像。  
 
 {:.list-inline}
 
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
++ 版本：1.0.1   
++ 作者： XUZHUOXI   

@@ -4,10 +4,9 @@ num: pro05
 lang: en-US
 ---
 
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+ImageResizer is mainly used to generate images of different sizes.  
 
 {:.list-inline}
 
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
++ Version: 1.0.0  
++ Author: XUZHUOXI   

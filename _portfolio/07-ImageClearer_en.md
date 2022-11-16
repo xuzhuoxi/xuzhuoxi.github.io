@@ -4,10 +4,10 @@ num: pro07
 lang: en-US
 ---
 
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+ImageClearer can be used to clean up images in the catalog with pixels that match the criteria.    
 
 {:.list-inline}
 
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
++ Version: 1.0.1  
++ Author: XUZHUOXI   
+
