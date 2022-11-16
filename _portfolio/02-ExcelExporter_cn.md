@@ -3,12 +3,11 @@ itemid: id02
 num: pro02
 lang: zh-CN
 ---
-Use this area to describe your project. **Markdown** supported.
 
-optional info list (delete if not using):
+一个用于导出Excel数据的工具。   
+根据模板导出Excel数据。支持**多种数据格式**和**任何一种编程语言**。支持**多操作系统**。  
 
 {:.list-inline} 
-- Date: 
-- Client: 
-- Category: 
 
++ 版本：1.0.3   
++ 作者： XUZHUOXI   

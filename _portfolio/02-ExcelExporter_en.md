@@ -3,12 +3,12 @@ itemid: id02
 num: pro02
 lang: en-US
 ---
-Use this area to describe your project. **Markdown** supported.
 
-optional info list (delete if not using):
+A tool for exporting Excel data.  
+Export Excel data according to templates. Supports multiple data formats and any programming language. Multi-OS support.  
 
 {:.list-inline} 
-- Date: 
-- Client: 
-- Category: 
+
++ Version：1.0.3   
++ Author： XUZHUOXI   
 
