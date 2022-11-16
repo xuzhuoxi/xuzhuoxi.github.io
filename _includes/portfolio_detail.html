@@ -21,9 +21,8 @@
                             <p class="item-intro text-muted">{{ i18ndata.subtitle | markdownify }}</p>
                             <img class="img-fluid d-block mx-auto"
                                  src="{{ i18ndata.image }}" alt="{{ i18ndata.alt }}"/>
-                            <p>{{ md.content }}</p>
-                            <button class="btn btn-primary"
-                                    data-dismiss="modal" type="button">
+                            <p class="text-left">{{ md.content }}</p>
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
                                 {{ i18ntext.portfolio.closebutton |
                                 default: "Close Project" }}
