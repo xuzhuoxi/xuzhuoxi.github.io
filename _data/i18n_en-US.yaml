@@ -52,25 +52,25 @@ navigation:
   - board_on: 'yes'
     class: page-section
     nav_on: 'yes'
-    page: services.html
+    page: home-services.html
     section: service
     title: Goals
   - board_on: 'yes'
     class: bg-light page-section
     nav_on: 'yes'
-    page: portfolio.html
+    page: home-portfolio.html
     section: portfolio
     title: Tools
   - board_on: 'yes'
     class: page-section
     nav_on: 'yes'
-    page: about.html
+    page: home-about.html
     section: about
     title: About
   - board_on: 'yes'
     class: bg-light page-section
     nav_on: 'yes'
-    page: timeline.html
+    page: home-timeline.html
     section: timeline
     title: Timeline
   - board_on: 'no'

@@ -11,12 +11,12 @@
         </div>
         <div class="row">
             {% for project in mdlist %}
-            {% include portfolio_grid.html index=forloop.index data=project %}
+            {% include home-portfolio-grid.html index=forloop.index data=project %}
             {% endfor %}
         </div>
     </div>
 </section>
 
 {% for md in mdlist %}
-{% include portfolio_detail.html index=forloop.index md=md %}
+{% include home-portfolio-detail.html index=forloop.index md=md %}
 {% endfor %}

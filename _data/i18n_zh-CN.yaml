@@ -49,25 +49,25 @@ navigation:
   - board_on: 'yes'
     class: page-section
     nav_on: 'yes'
-    page: services.html
+    page: home-services.html
     section: service
     title: 目标
   - board_on: 'yes'
     class: bg-light page-section
     nav_on: 'yes'
-    page: portfolio.html
+    page: home-portfolio.html
     section: portfolio
     title: 工具
   - board_on: 'yes'
     class: page-section
     nav_on: 'yes'
-    page: about.html
+    page: home-about.html
     section: about
     title: 关于
   - board_on: 'yes'
     class: bg-light page-section
     nav_on: 'yes'
-    page: timeline.html
+    page: home-timeline.html
     section: timeline
     title: 经历
   - board_on: 'no'
