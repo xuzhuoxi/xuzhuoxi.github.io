@@ -75,24 +75,24 @@ navigation:
     title: Timeline
   - board_on: 'no'
     nav_on: 'no'
-    page: team.html
+    page: home-team.html
     section: team
     title: Team
   - board_on: 'yes'
     class: page-section
     nav_on: 'yes'
-    page: skills.html
+    page: home-skills.html
     section: skills
     title: Skills
   - board_on: 'yes'
     class: page-section
     nav_on: 'yes'
-    page: contact.html
+    page: home-contact.html
     section: contact
     title: Contact
   - board_on: 'no'
     nav_on: 'no'
-    page: clients.html
+    page: home-clients.html
   - board_on: 'no'
     nav_on: 'no'
     title: Theme Source
@@ -185,8 +185,6 @@ services:
   text: Clear goals and avoid detours!
   title: Goals
 skills:
-  '0':
-    title: ''
   text: Skills do not overwhelm your body!
   title: Skills
 team:

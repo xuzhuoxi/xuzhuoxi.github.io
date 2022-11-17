@@ -72,24 +72,24 @@ navigation:
     title: 经历
   - board_on: 'no'
     nav_on: 'no'
-    page: team.html
+    page: home-team.html
     section: team
     title: 团队
   - board_on: 'yes'
     class: page-section
     nav_on: 'yes'
-    page: skills.html
+    page: home-skills.html
     section: skills
     title: 技能
   - board_on: 'yes'
     class: page-section
     nav_on: 'yes'
-    page: contact.html
+    page: home-contact.html
     section: contact
     title: 联系我
   - board_on: 'no'
     nav_on: 'no'
-    page: clients.html
+    page: home-clients.html
   - board_on: 'no'
     nav_on: 'no'
     title: 源代码
@@ -166,8 +166,6 @@ services:
   text: 目标明确，少走弯路！
   title: 目标
 skills:
-  '0':
-    title: ''
   text: 技多不压身！
   title: 技能
 team:
