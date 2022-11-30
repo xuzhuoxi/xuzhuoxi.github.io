@@ -97,6 +97,10 @@ navigation:
     nav_on: 'no'
     title: Theme Source
     url: 'https://github.com/raviriley/agency-jekyll-theme/'
+  - board_on: 'no'
+    nav_on: 'yes'
+    title: 中文
+    url: 'https://xuzhuoxi.com/index.html'
 portfolio:
   closebutton: Close
   download: Download
