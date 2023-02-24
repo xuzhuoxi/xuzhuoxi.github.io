@@ -107,14 +107,14 @@ portfolio:
   list:
     - alt: GameDriver Pro Logo
       download: 'https://assetstore.unity.com/packages/slug/234202'
-      image: assets/img/portfolio/01-GameDriverPro-400x300.jpg
+      image: assets/img/portfolio/01-GameDriverPro-400x300.webp
       itemid: id01
       more: 'https://www.xuzhuoxi.com/GameDriver-Docs/'
       subtitle: GameDriver Pro is a game framework for Unity engine.
       title: GameDriver Pro
     - alt: ExcelExporter Logo
       download: 'https://github.com/xuzhuoxi/ExcelExporter/releases'
-      image: assets/img/portfolio/02-ExcelExporter-400x300.jpg
+      image: assets/img/portfolio/02-ExcelExporter-400x300.webp
       itemid: id02
       more: 'https://github.com/xuzhuoxi/ExcelExporter'
       subtitle: >-
@@ -123,7 +123,7 @@ portfolio:
       title: ExcelExporter
     - alt: FileSync Logo
       download: 'https://github.com/xuzhuoxi/FileSync/releases'
-      image: assets/img/portfolio/03-FileSync-400x300.jpg
+      image: assets/img/portfolio/03-FileSync-400x300.webp
       itemid: id03
       more: 'https://github.com/xuzhuoxi/FileSync'
       subtitle: >-
@@ -132,7 +132,7 @@ portfolio:
       title: FileSync
     - alt: SVNArchiver Logo
       download: 'https://github.com/xuzhuoxi/SVNArchiver/releases'
-      image: assets/img/portfolio/04-SVNArchiver-400x300.jpg
+      image: assets/img/portfolio/04-SVNArchiver-400x300.webp
       itemid: id04
       more: 'https://github.com/xuzhuoxi/SVNArchiver'
       subtitle: >-
@@ -141,7 +141,7 @@ portfolio:
       title: SVNArchiver
     - alt: ImageResizer Logo
       download: 'https://github.com/xuzhuoxi/ImageResizer/releases'
-      image: assets/img/portfolio/05-ImageResizer-400x300.jpg
+      image: assets/img/portfolio/05-ImageResizer-400x300.webp
       itemid: id05
       more: 'https://github.com/xuzhuoxi/ImageResizer'
       subtitle: >-
@@ -150,7 +150,7 @@ portfolio:
       title: ImageResizer
     - alt: ImageSplitter Logo
       download: 'https://github.com/xuzhuoxi/ImageSplitter/releases'
-      image: assets/img/portfolio/06-ImageSplitter-400x300.jpg
+      image: assets/img/portfolio/06-ImageSplitter-400x300.webp
       itemid: id06
       more: 'https://github.com/xuzhuoxi/ImageSplitter'
       subtitle: >-
@@ -159,7 +159,7 @@ portfolio:
       title: ImageSplitter
     - alt: ImageClearer Logo
       download: 'https://github.com/xuzhuoxi/ImageClearer/releases'
-      image: assets/img/portfolio/07-ImageClearer-400x300.jpg
+      image: assets/img/portfolio/07-ImageClearer-400x300.webp
       itemid: id07
       more: 'https://github.com/xuzhuoxi/ImageClearer'
       subtitle: Clean up images in the catalog with pixels that match the criteria.
@@ -236,12 +236,12 @@ timeline:
       desc: >-
         Studied at **South China Normal University**, majoring in **Software
         Engineering**.
-      image: assets/img/timeline/0.png
+      image: assets/img/timeline/0.webp
       title: My College Life
       year: 2006-2010
     - alt: Graduate
       desc: Graduated from university in July 2010 and started professional career.
-      image: assets/img/timeline/1.png
+      image: assets/img/timeline/1.webp
       title: Graduate
       year: July 2010
     - alt: Aola
@@ -249,21 +249,21 @@ timeline:
         Worked for **Guangzhou Baitian Information Technology Co.,Ltd.**, 
         As a Game Development Engineer, serving the  **Aola Team**. 
         It was an important time for me to consolidate my technical foundation.
-      image: assets/img/timeline/2.jpg
+      image: assets/img/timeline/2.webp
       title: Game Development Engineer
       year: 2010-2015
     - alt: HTML5
       desc: |-
         Finish a lot of HTML game projects. <br/>
         Most are moderate or heavy of game.
-      image: assets/img/timeline/3.png
+      image: assets/img/timeline/3.webp
       title: HTML5 Game Development Engineer
       year: 2015-2018
     - alt: Meaningful
       desc: |-
         Do something meaningful<br/>
         Work hard...
-      image: assets/img/timeline/4.jpg
+      image: assets/img/timeline/4.webp
       title: Unity Game Development Engineer
       year: 2018-Now
   text: 'The long life,  youth but only a small part.'

@@ -104,49 +104,49 @@ portfolio:
   list:
     - alt: GameDriver Pro Logo
       download: 'https://assetstore.unity.com/packages/slug/234202'
-      image: assets/img/portfolio/01-GameDriverPro-400x300.jpg
+      image: assets/img/portfolio/01-GameDriverPro-400x300.webp
       itemid: id01
       more: 'https://www.xuzhuoxi.com/GameDriver-Docs/'
       subtitle: GameDriver Pro 是一款基于Unity引擎的游戏开发框架。
       title: GameDriver Pro
     - alt: ExcelExporter Logo
       download: 'https://github.com/xuzhuoxi/ExcelExporter/releases'
-      image: assets/img/portfolio/02-ExcelExporter-400x300.jpg
+      image: assets/img/portfolio/02-ExcelExporter-400x300.webp
       itemid: id02
       more: 'https://github.com/xuzhuoxi/ExcelExporter'
       subtitle: 根据模板导出Excel数据。支持**多种数据格式**和**任何一种编程语言**。支持**多操作系统**。
       title: ExcelExporter
     - alt: FileSync Logo
       download: 'https://github.com/xuzhuoxi/FileSync/releases'
-      image: assets/img/portfolio/03-FileSync-400x300.jpg
+      image: assets/img/portfolio/03-FileSync-400x300.webp
       itemid: id03
       more: 'https://github.com/xuzhuoxi/FileSync'
       subtitle: 通过配置进行同步、复制、删除文件，是**多工作区协作**的利器。支持**多操作系统**。
       title: FileSync
     - alt: SVNArchiver Logo
       download: 'https://github.com/xuzhuoxi/SVNArchiver/releases'
-      image: assets/img/portfolio/04-SVNArchiver-400x300.jpg
+      image: assets/img/portfolio/04-SVNArchiver-400x300.webp
       itemid: id04
       more: 'https://github.com/xuzhuoxi/SVNArchiver'
       subtitle: 针对SVN进行数据归档的工具。支持**完整归档**、**差异归档**。支持**多操作系统**。
       title: SVNArchiver
     - alt: ImageResizer Logo
       download: 'https://github.com/xuzhuoxi/ImageResizer/releases'
-      image: assets/img/portfolio/05-ImageResizer-400x300.jpg
+      image: assets/img/portfolio/05-ImageResizer-400x300.webp
       itemid: id05
       more: 'https://github.com/xuzhuoxi/ImageResizer'
       subtitle: 按比例或尺寸对图片进行大小调整，支持**配置**、**批量**处理。支持**多操作系统**。
       title: ImageResizer
     - alt: ImageSplitter Logo
       download: 'https://github.com/xuzhuoxi/ImageSplitter/releases'
-      image: assets/img/portfolio/06-ImageSplitter-400x300.jpg
+      image: assets/img/portfolio/06-ImageSplitter-400x300.webp
       itemid: id06
       more: 'https://github.com/xuzhuoxi/ImageSplitter'
       subtitle: 按固定尺寸或数量把图片进行分割。支持**大分辨率**图片。支持**规律化命名**。支持**多操作系统**。
       title: ImageSplitter
     - alt: ImageClearer Logo
       download: 'https://github.com/xuzhuoxi/ImageClearer/releases'
-      image: assets/img/portfolio/07-ImageClearer-400x300.jpg
+      image: assets/img/portfolio/07-ImageClearer-400x300.webp
       itemid: id07
       more: 'https://github.com/xuzhuoxi/ImageClearer'
       subtitle: 清理目录中像素符合条件的图片。
@@ -215,12 +215,12 @@ timeline:
   events:
     - alt: SCNU
       desc: 就读于**华南师范大学**，专业为**软件工程**。
-      image: assets/img/timeline/0.png
+      image: assets/img/timeline/0.webp
       title: 我的大学生活
       year: 2006-2010
     - alt: 毕业
       desc: 2010年7月大学毕业，开始了职业生涯。
-      image: assets/img/timeline/1.png
+      image: assets/img/timeline/1.webp
       title: 毕业
       year: 2010年7月
     - alt: 奥拉星
@@ -228,21 +228,21 @@ timeline:
         就职于**广州百田信息科技有限公司**。<br/>
         作为一名游戏开发工程师，服务于**奥拉星项目组**。<br/>
         是我巩固技术基础的重要一段时间。
-      image: assets/img/timeline/2.jpg
+      image: assets/img/timeline/2.webp
       title: 游戏开发工程师
       year: 2010-2015
     - alt: HTML5
       desc: |-
         做了不少HTML游戏项目。<br/>
         以中度和重度为主。
-      image: assets/img/timeline/3.png
+      image: assets/img/timeline/3.webp
       title: HTML5 游戏开发主程序
       year: 2015-2018
     - alt: 意义
       desc: |-
         做些有意义的事件<br/>
         摸爬滚打中……
-      image: assets/img/timeline/4.jpg
+      image: assets/img/timeline/4.webp
       title: Unity 游戏开发主程序
       year: 2018-现在
   text: 漫漫人生，能称为青春的却只有一小段。
