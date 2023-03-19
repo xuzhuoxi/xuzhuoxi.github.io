@@ -9,5 +9,5 @@ lang: zh-CN
 {:.list-inline} 
 
 + 渲染管线兼容性： Built-in(**兼容**)、URP(**兼容**)、HDRP(**兼容**)  
-+ 版本：1.0.3   
++ 版本：1.1.0   
 + 作者： XUZHUOXI   
