@@ -9,6 +9,6 @@ Export Excel data according to templates. Supports multiple data formats and any
 
 {:.list-inline} 
 
-+ Version：1.0.4   
++ Version：1.0.6   
 + Author： XUZHUOXI   
 
