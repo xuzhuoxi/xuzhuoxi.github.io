@@ -9,5 +9,5 @@ lang: zh-CN
 
 {:.list-inline} 
 
-+ 版本：1.0.6   
++ 版本：2.0   
 + 作者： XUZHUOXI   
