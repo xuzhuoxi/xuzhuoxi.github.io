@@ -105,13 +105,13 @@ portfolio:
   closebutton: Close
   download: Download
   list:
-    - alt: GameDriver Pro Logo
+    - alt: RocketDriver Pro Logo
       download: 'https://assetstore.unity.com/packages/slug/234202'
-      image: assets/img/portfolio/01-GameDriverPro-400x300.webp
+      image: assets/img/portfolio/01-RocketDriverPro-400x300.webp
       itemid: id01
-      more: 'https://www.xuzhuoxi.com/GameDriver-Docs/'
-      subtitle: GameDriver Pro is a game framework for Unity engine.
-      title: GameDriver Pro
+      more: 'https://www.xuzhuoxi.com/RocketDriver-Docs/'
+      subtitle: RocketDriver Pro is a game framework for Unity engine.
+      title: RocketDriver Pro
     - alt: ExcelExporter Logo
       download: 'https://github.com/xuzhuoxi/ExcelExporter/releases'
       image: assets/img/portfolio/02-ExcelExporter-400x300.webp
@@ -233,9 +233,7 @@ timeline:
   align: left
   events:
     - alt: SCNU
-      desc: >-
-        Studied at **South China Normal University**, majoring in **Software
-        Engineering**.
+      desc: 'Studied at **South China Normal University**, **Software Engineering**.'
       image: assets/img/timeline/0.webp
       title: My College Life
       year: 2006-2010

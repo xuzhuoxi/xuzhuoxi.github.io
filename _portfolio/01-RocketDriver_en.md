@@ -9,6 +9,6 @@ Provide professional and well-expanded game development support, including: reso
 {:.list-inline} 
 
 + Render Pipeline (SRP) Compatibility: Built-in(**Compatible**)、URP(**Compatible**)、HDRP(（)**Compatible**)  
-+ Version: 1.2.0515  
++ Version: 2.0.0810  
 + Author: XUZHUOXI   
 
